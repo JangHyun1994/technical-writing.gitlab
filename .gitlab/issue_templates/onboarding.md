@@ -26,6 +26,7 @@
 1. [ ] Learn about Danger checks, which will fail pipelines for commit messages that are too long or break other rules, or auto-reply on issues missing certain labels, etc. Rules are defined by the paths [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Dangerfile), with the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/danger).
 1. [ ] Review and bookmark the [list](https://about.gitlab.com/handbook/engineering/projects/) of all the Projects managed by GitLab Engineering, noting that the Technical Writing team is not involved in most of them.
 1. [ ] The Technical Writing team uses the Geekbot app in Slack to run asynchronous standups, which include the 'Morning Stretch' and 'Wednesday Weekly' questions. Ask your onboarding buddy who can add you to the application.
+1. [ ] If you want to start "feeling productive" beyond your training, look at our documentation issues with the [_Good for 1st time contributors_](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Good%20for%201st%20time%20contributors&label_name%5B%5D=documentation) label.
 
 In the following sections, you are asked to link to issues and MRs you are assigned or you create. Edit the issue and include those links as soon as they exist; don't wait for the end of the milestone.
 
