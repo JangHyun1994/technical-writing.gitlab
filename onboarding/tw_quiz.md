@@ -18,7 +18,7 @@ These questions are meant to help you get familiar with a variety of documentati
 
 1. Which GitLab project has the handbook?
 
-1. In the documentation, does GitLab use contractions like "don't" or "can't"?
+1. In the documentation, does GitLab allow use of contractions like "don't" or "can't"?
 
 1. How do you add a new topic to the sidebar table of contents?
 
