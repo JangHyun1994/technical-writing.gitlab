@@ -1,4 +1,8 @@
-### Quiz for New Technical Writers
+### Technical Writer Research Questions
+
+Welcome to the GitLab Technical Writing team!
+
+These questions are meant to help you get familiar with a variety of documentation.
 
 1. What does the `backstage` label mean?
 
