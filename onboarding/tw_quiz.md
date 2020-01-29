@@ -20,12 +20,14 @@ These questions are meant to help you get familiar with a variety of documentati
 
 1. In the documentation, does GitLab allow use of contractions like "don't" or "can't"?
 
-1. How do you add a new topic to the sidebar table of contents?
+1. How do you add a new topic to the global nav bar (on the left)?
 
-1. How do you differentiate between topics that are Enterprise Edition only and ones that aren’t?
+1. How do you differentiate between features that exist only in certain [tiers](https://about.gitlab.com/handbook/marketing/product-marketing/tiers/)?
 
 1. Where can you find which stage/group labels to add to an issue/MR, and which technical writer to assign?
 
-1. Which labels should be added to the majority of documentation MRs?
+1. Which labels must be added to MRs that have changes to the documentation?
 
-Would you like to add your own question to this list? Submit a merge request in this project.
+1. What is the correct format for linking one doc to another in `gitlab/doc/*`?
+
+Would you like to add your own question to this list? Submit a merge request to get started.
