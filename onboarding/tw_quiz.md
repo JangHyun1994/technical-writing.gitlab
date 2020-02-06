@@ -30,4 +30,6 @@ These questions are meant to help you get familiar with a variety of documentati
 
 1. What is the correct format for linking one doc to another in `gitlab/doc/*`?
 
+1. When you add suggestions to an MR (by adding a comment and then clicking the **Insert suggestion** button), how do you make suggestions to multiple lines?
+
 Would you like to add your own question to this list? Submit a merge request to get started.
