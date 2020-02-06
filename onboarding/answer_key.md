@@ -65,3 +65,7 @@
    Learn more about [GitLab preferences for links](https://docs.gitlab.com/ee/development/documentation/styleguide.html#links).
 
    Learn more about [the markdown used for links](https://docs.gitlab.com/ee/user/markdown.html#links).
+
+1. When you add suggestions to an MR (by adding a comment and then clicking the **Insert suggestion** button), how do you make suggestions to multiple lines?
+
+   [This content about multi-line suggestions](https://docs.gitlab.com/ee/user/discussions/#multi-line-suggestions) should help you understand.
