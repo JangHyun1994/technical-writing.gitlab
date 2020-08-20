@@ -1,4 +1,7 @@
-### Technical Writing Team Project
+# Technical Writing team project
 
-This is the Technical Writing Team project, which contains issues related to team
-management and technical writing discussions.
+This is the [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/) project,
+which contains:
+
+- Issues related to team management and technical writing discussions.
+- Team-specific onboarding resources.

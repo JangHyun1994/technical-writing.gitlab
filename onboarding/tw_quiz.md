@@ -1,4 +1,4 @@
-### Technical Writer Research Questions
+# Technical Writer research questions
 
 Welcome to the GitLab Technical Writing team!
 
