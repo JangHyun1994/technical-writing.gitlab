@@ -1,4 +1,4 @@
-### Answers to the research questions
+# Answers to the research questions
 
 1. What does the `backstage` label mean?
 
@@ -22,7 +22,7 @@
 
 1. Which GitLab project has instructions for how to run a local build of the docs?
 
-   [gitlab-docs](https://gitlab.com/gitlab-org/gitlab-docs)
+   [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs)
 
 1. How does GitLab handle redirects? (Where is it documented?)
 
@@ -30,7 +30,7 @@
 
 1. Which GitLab project has the handbook?
 
-   [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
+   [`www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com)
 
 1. In the documentation, does GitLab allow use of contractions like "don't" or "can't"?
 
@@ -64,7 +64,7 @@
 
    Learn more about [GitLab preferences for links](https://docs.gitlab.com/ee/development/documentation/styleguide.html#links).
 
-   Learn more about [the markdown used for links](https://docs.gitlab.com/ee/user/markdown.html#links).
+   Learn more about [the Markdown used for links](https://docs.gitlab.com/ee/user/markdown.html#links).
 
 1. When you add suggestions to an MR (by adding a comment and then clicking the **Insert suggestion** button), how do you make suggestions to multiple lines?
 
