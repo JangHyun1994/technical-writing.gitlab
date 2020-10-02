@@ -5,5 +5,7 @@ project contains:
 
 - Epics, issues, and the roadmap for the Technical Writing team and GitLab
   documentation.
-- Issues related to team management and technical writing discussions.
+- Issues related to team management and technical writing discussions, including
+  site design, information architecture, the GitLab style guide, and content
+  design.
 - Team-specific onboarding resources.
