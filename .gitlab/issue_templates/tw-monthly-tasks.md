@@ -17,19 +17,19 @@ will ensure the following tasks are completed to help keep the `gitlab` reposito
   messages, which are usually caused by problematic HTML or square brackets.
 - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` manual job
   in the most recently run scheduled pipeline.
-- [ ] **Check for uncompressed images.** Run `bundle exec rake pngquant:lint` to
-  check for uncompressed images, and `bundle exec rake pngquant:compress` which
-  [compresses them](https://docs.gitlab.com/ee/development/documentation/styleguide.html#compress-images).
-- [ ] **Check for unused images.** Follow these steps to test for images included in our
-  repository, but not linked anywhere:
-  1. Create a file called `test-images.sh`, with the following contents:
-     ```shell
-     for FILE in $(git ls-files ./doc/*.png); do
-         git grep $(basename "$FILE") > /dev/null || echo "would remove $FILE"
-     done
-     ```
-  1. Run: `chmod 755 test-images.sh`
-  1. Run: `./test-images.sh`
+- [ ] **Check for [uncompressed images](https://docs.gitlab.com/ee/development/documentation/styleguide.html#compress-images).**
+      in `gitlab-org/gitlab`:
+      ```shell
+      # Check for uncompressed images
+      bundle exec rake pngquant:lint
+      # Compress them
+      bundle exec rake pngquant:compress
+      ```
+- [ ] **Check for unused images.** Run the following command to test for images included in the
+      repository, but not linked anywhere:
+      ```shell
+      for FILE in $(git ls-files "./doc/*.png"); do git grep $(basename "$FILE") > /dev/null || echo "Not linked, would remove $FILE"; done
+      ```
 - [ ] **Improve this template, if needed.** It's available in
   [this folder](https://gitlab.com/gitlab-org/technical-writing/-/tree/master/.gitlab/issue_templates)
   of the [`technical-writing`](https://gitlab.com/gitlab-org/technical-writing/) repository.
