@@ -1,6 +1,6 @@
 # Update UI text to meet our style guidelines
 
-Update this section to meet our style guidelines: `**Settings > General > Naming, topics, avatar**`.
+Update this section of the UI to meet our style guidelines: `**Settings > General > Naming, topics, avatar**`.
 
 These strings are in this file in the GitLab repo: `/app/views/projects/edit.html.haml`
 
