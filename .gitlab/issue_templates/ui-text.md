@@ -9,6 +9,7 @@ These strings are in this file in the GitLab repo: `/app/views/projects/edit.htm
 At a minimum, address these issues.
 
 - [ ] Present tense rather than future. https://design.gitlab.com/content/voice-tone#instructions
+- [ ] Active voice. https://design.gitlab.com/content/voice-tone#active-voice
 - [ ] No periods for settings or headings. https://design.gitlab.com/content/punctuation#periods
 - [ ] Periods for all help text.
 - [ ] No repetitive or unnecessary text. (Things like: This setting is... or "Use this setting to.")
