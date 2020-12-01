@@ -4,9 +4,11 @@ Update this section of the UI to meet our style guidelines: `**Settings > Genera
 
 These strings are in this file in the GitLab repo: `/app/views/projects/edit.html.haml`
 
+**Remember:** With UI text, less is more. If you need to go into detail, link to the docs.
+
 ## Review grammar and style
 
-At a minimum, address these issues.
+At a minimum, address these issues:
 
 - [ ] Present tense rather than future. https://design.gitlab.com/content/voice-tone#instructions
 - [ ] Active voice. https://design.gitlab.com/content/voice-tone#active-voice
