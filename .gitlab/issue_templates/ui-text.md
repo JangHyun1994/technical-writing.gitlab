@@ -1,5 +1,8 @@
 # Update UI text to meet our style guidelines
 
+<!-- Be sure to name this issue similar to the following: -->
+<!-- `OKR: [Settings section]/[Section name] - Review and revise settings-related UI text` -->
+
 Update this section of the UI to meet our style guidelines: `**Settings > General > Naming, topics, avatar**`.
 
 These strings are in this file in the GitLab repo: `/app/views/projects/edit.html.haml`
@@ -25,9 +28,22 @@ Do not change the text for settings themselves. If you do feel strongly that a s
 
 ## How to update the text
 
-1. Open the file and make your changes. View them in the GDK to ensure they are correct.
-1. Generate the .pot files by running: bin/rake gettext:regenerate
-1. Generate a changelog by running: bin/changelog -m "Message about change"
+After you've reviewed the text, you'll need to implement any changes or improvements in the GitLab application.
+
+1. Open the file and make your changes.
+1. Review your changes in the GDK to ensure they're correct.
+1. Generate the `.pot` files by running:
+
+   ```shell
+   bin/rake gettext:regenerate
+   ```
+
+1. Generate a changelog by running:
+
+   ```shell
+   bin/changelog -m "Message about change"
+   ```
+
 1. Open an MR and assign it to another writer for review and merge.
 
-
+/label ~"Technical Writing" ~OKR ~"UI text"
