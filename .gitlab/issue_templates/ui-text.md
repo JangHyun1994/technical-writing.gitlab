@@ -23,6 +23,7 @@ At a minimum, address these issues:
 - [ ] If a setting is optional, then "optional" is in parentheses at the end of the setting name. https://design.gitlab.com/components/form/#required-information
 - [ ] Latinisms (i.e., e.g.) removed. https://design.gitlab.com/content/voice-tone#avoid-latin-abbreviations
 - [ ] Do not use "allow" unless you're specifically talking about security. For example, "Allows users to fork the repo" should be "Users can fork the repo."
+- [ ] Do a final review of everything you've updated and consider whether it affects the docs. If it does, update the docs after your MR is merged.
 
 Do not change the text for settings themselves. If you do feel strongly that a setting name should be changed, open a follow-up issue and work with a PM to change it. When you change a setting, the related docs also need to change. These changes are outside the scope of this issue.
 
