@@ -42,7 +42,7 @@ After you've reviewed the text, you'll need to implement any changes or improvem
 1. Generate a changelog by running:
 
    ```shell
-   bin/changelog -m "Message about change"
+   bin/changelog -m "Updated UI text to match style guidelines"
    ```
 
 1. Open an MR and assign it to another writer for review and merge.
