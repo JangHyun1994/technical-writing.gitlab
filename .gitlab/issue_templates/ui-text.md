@@ -22,7 +22,7 @@ At a minimum, address these issues:
 - [ ] Language is parallel. (Review all the settings in the section to ensure they are similarly-worded.) https://design.gitlab.com/content/voice-tone#parallelism
 - [ ] If a setting is optional, then "optional" is in parentheses at the end of the setting name. https://design.gitlab.com/components/form/#required-information
 - [ ] Latinisms (i.e., e.g.) removed. https://design.gitlab.com/content/voice-tone#avoid-latin-abbreviations
-- [ ] Do not use "allow" unless you're specifically talking about security. For example, "Allows users to fork the repo" should be "Users can fork the repo."
+- [ ] Don't use "allow" unless you're specifically talking about security. For example, "Allows users to fork the repo" should be "Users can fork the repo."
 - [ ] Do a final review of everything you've updated and consider whether it affects the docs. If it does, open a follow-up issue or an MR to update the docs.
 
 Do not change the text for settings themselves. If you do feel strongly that a setting name should be changed, open a follow-up issue and work with a PM to change it. When you change a setting, the related docs also need to change. These changes are outside the scope of this issue.
@@ -31,7 +31,9 @@ Do not change the text for settings themselves. If you do feel strongly that a s
 
 After you've reviewed the text, you'll need to implement any changes or improvements in the GitLab application.
 
-1. Open the file and make your changes.
+1. Search the code for the section name to find the UI text to be modified. Note that you may need to modify more
+   than one file to complete your text update work for the section. For example, seeing `render_if_exists` for an
+   item in the section would have you also go to that file for potential additional changes to the section.
 1. Review your changes in the GDK to ensure they're correct.
 1. Generate the `.pot` files by running:
 
@@ -45,7 +47,9 @@ After you've reviewed the text, you'll need to implement any changes or improvem
    bin/changelog -m "Updated UI text to match style guidelines"
    ```
 
-1. Open an MR and assign it to another writer for review/approval.
+1. Open an MR that's linked to this issue, and then assign it to another writer for review/approval.
 1. Assign to the roulette-recommended engineer for merge.
+
+Associated with https://gitlab.com/gitlab-org/technical-writing/-/issues/278
 
 /label ~"Technical Writing" ~OKR ~"UI text"
