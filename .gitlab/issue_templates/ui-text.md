@@ -3,9 +3,7 @@
 <!-- Be sure to name this issue similar to the following: -->
 <!-- `OKR: [Settings section]/[Section name] - Review and revise settings-related UI text` -->
 
-Update this section of the UI to meet our style guidelines: `**Settings > General > Naming, topics, avatar**`.
-
-These strings are in this file in the GitLab repo: `/app/views/projects/edit.html.haml`
+Update this section of the UI to meet the [Pajamas](https://design.gitlab.com/) style guidelines: `**Settings > General > Naming, topics, avatar**`.
 
 **Remember:** With UI text, less is more. If you need to go into detail, link to the docs.
 
@@ -31,8 +29,8 @@ Do not change the text for settings themselves. If you do feel strongly that a s
 
 After you've reviewed the text, you'll need to implement any changes or improvements in the GitLab application.
 
-1. Search the code for the section name to find the UI text to be modified. Note that you may need to modify more
-   than one file to complete your text update work for the section. For example, seeing `render_if_exists` for an
+1. Search the code for the section name to find the UI text to be modified. You may need to modify more than
+   one file to complete your text update work for the section. For example, seeing `render_if_exists` for an
    item in the section would have you also go to that file for potential additional changes to the section.
 1. Review your changes in the GDK to ensure they're correct.
 1. Generate the `.pot` files by running:
