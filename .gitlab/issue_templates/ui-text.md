@@ -45,6 +45,7 @@ After you've reviewed the text, you'll need to implement any changes or improvem
    bin/changelog -m "Updated UI text to match style guidelines"
    ```
 
-1. Open an MR and assign it to another writer for review and merge.
+1. Open an MR and assign it to another writer for review.
+1. Assign to the roulette-recommended engineer for merge.
 
 /label ~"Technical Writing" ~OKR ~"UI text"
