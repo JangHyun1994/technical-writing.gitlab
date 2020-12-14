@@ -2,7 +2,7 @@
 
 ### Manager tasks
 
-1. [ ] Manager: Request that new team member be added to `docs@gitlab.com` email group and `@docsteam` user group on Slack (they will then automatically be added to `#docs`, `#docs-team`, and `#docs-comments`).
+1. [ ] Manager: Request that new team member be added to `docs@gitlab.com` and `ux-department@gitlab.com` email groups, and `@docsteam` user group on Slack (they will then automatically be added to `#docs`, `#docs-team`, and `#docs-comments`).
 1. [ ] Manager: Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 1. [ ] Manager: Determine and assign secondary group for shadowing.
 1. [ ] Manager: Determine and assign group for trainee (i.e. to work toward being assigned as its TW).
