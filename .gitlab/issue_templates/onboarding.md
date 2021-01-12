@@ -2,33 +2,37 @@
 
 ### Manager tasks
 
-1. [ ] Manager: Request that new team member be added to `docs@gitlab.com` and
+The manager for the person being onboarded must complete these tasks:
+
+1. [ ] Request that new team member be added to `docs@gitlab.com` and
    `ux-department@gitlab.com` email groups, and `@docsteam` user group in Slack
    (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
-1. [ ] Manager: Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members)
+1. [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members)
    on GitLab.com.
-1. [ ] Manager: Determine and assign secondary group for shadowing.
-1. [ ] Manager: Determine and assign group for trainee (for example, to work
-   toward being assigned as its technical writer).
-1. [ ] Manager: Determine and schedule further group assignments.
+1. [ ] Determine and assign secondary group for shadowing.
+1. [ ] Determine and assign group for trainee (for example, to work towards
+   being assigned as its technical writer).
+1. [ ] Determine and schedule further group assignments.
 
 ### Team member tasks
 
+Welcome to the Technical Writing team! Here are your technical writing-related onboarding tasks:
+
 #### Week 1-2
 
-1. [ ] New team member: Say "hi" to the rest of the Technical Writing team in
-   the #tw-team channel in Slack. Tell us a bit more about yourself by using
-   the [Team Agenda doc](https://docs.google.com/document/d/1pIyodaFXJXIgXDSOqqE1i15fWBVr2hcxN45VzgsVRJY/edit),
+1. [ ] Say "hi" to the rest of the Technical Writing team in the #tw-team
+   channel in Slack. Tell us a bit more about yourself by using the
+   [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit),
    and then during the first team meeting you're able to attend.
-1. [ ] New team member: Also on Slack: join #docs and #docs-team-onboarding. In
-   the latter, ask any questions that arise during your onboarding. Don't worry
-   about asking seemingly basic questions; everyone has joined the team
-   bringing their own knowledge and experience, and some of our practices may
-   not be obvious or documented. You can improve our onboarding (or other
-   process documentation) by creating MRs, issues, or mentioning ideas in the
-   Slack channel.
-1. [ ] New team member: Read the following to become familiar with how
-   technical writing is done at GitLab:
+1. [ ] In Slack, join #docs and #docs-team-onboarding. In the latter channel,
+   ask any questions that arise during your onboarding. Don't worry about
+   asking seemingly basic questions; everyone has joined the team bringing
+   their own knowledge and experience, and some of our practices may not be
+   obvious or documented. You can improve our onboarding (or other process
+   documentation) by creating MRs, issues, or mentioning ideas in the Slack
+   channel.
+1. [ ] Read the following to become familiar with how technical writing is done
+   at GitLab:
    1. [ ] [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
    1. [ ] [GitLab Documentation guidelines](https://docs.gitlab.com/ce/development/documentation/index.html)
       and the various pages linked from the introduction. Note that there are
@@ -37,14 +41,13 @@
       1. [ ] Per <https://docs.gitlab.com/ee/development/documentation/#source-files-and-rendered-web-locations>,
          begin to familiarize yourself with the `gitlab` project's `doc`
          directory.
-      1. [ ] In addition to the projects where content is maintained (`gitlab`,
-         `runner`, etc.), take a look at two other key projects that the team
-         uses:
-         - <https://gitlab.com/gitlab-org/technical-writing> for process issues.
-         - <https://gitlab.com/gitlab-org/gitlab-docs> for documentation site
+      1. [ ] In addition to the projects where content is maintained (like
+         `gitlab` and `runner`), review these key projects the team uses:
+         - <https://gitlab.com/gitlab-org/technical-writing>: Process issues.
+         - <https://gitlab.com/gitlab-org/gitlab-docs>: Documentation site
            issues (including the front end, back end, and CI).
-   1. [ ] New team member: Review these processes, noting the mentions of
-      "documentation" and "technical writer"/"technical writing":
+   1. [ ] Review these processes, noting the mentions of "documentation" and
+      "technical writer"/"technical writing":
 
       - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
       - [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
@@ -85,66 +88,65 @@ don't wait for the end of the milestone.
 
 #### First release - Shadow stage groups
 
-1. [ ] New team member: For the first release cycle beginning after your start
-   date (the first 18th), shadow your buddy's work in [their most active Stage Group],
-   plus one other stage group/writer, decided with your manager and the team.
-   The technical writers proactively share relevant issues, merge requests, and
+1. [ ] For the first release cycle beginning after your start date (the first
+   18th), shadow your buddy's work in [their most active Stage Group], plus one
+   other stage group/writer, decided with your manager and the team. The
+   technical writers proactively share relevant issues, merge requests, and
    communications with you by creating/using a #tw-onboarding-<groupname>
    channel, and answer questions you have that arise in this context.
-1. [ ] New team member: Read about all stages and groups, and discuss with your
-   manager whether there's a particular group that will need your coverage as
-   technical writer, or multiple groups you may be interested in.
+1. [ ] Read about all stages and groups, and discuss with your manager whether
+   there's a particular group that will need your coverage as technical writer,
+   or multiple groups you may be interested in.
 
-   - [ ] New team member: List group 1 here:
-   - [ ] New team member: List group 2 here:
+   - [ ] List group 1 here:
+   - [ ] List group 2 here:
 
-1. [ ] New team member: Link to any issues you are assigned here:
-1. [ ] New team member: Link to any merge requests you are assigned here:
+1. [ ] Link to any issues you are assigned here:
+1. [ ] Link to any merge requests you are assigned here:
 
 #### Second release - Trainee
 
-1. [ ] New team member: For the second release cycle that begins after your
-   start date (the second 18th), unless your manager extends the shadowing
-   phase, act as a trainee for a single group (as assigned by your manager).
-   The intent is to take on the group as its technical writer for the next
-   release. List the group name here:
+1. [ ] For the second release cycle that begins after your start date (the
+   second 18th), unless your manager extends the shadowing phase, act as a
+   trainee for a single group (as assigned by your manager). The intent is to
+   take on the group as its technical writer for the next release. List the
+   group name here:
    The technical writer assigned to that group assigns substantial parts of the
    work to you for this group (roughly half of the groups's reviews of MRs with
    documentation, UI text, and release post content; a small but substantial
    documentation authoring project; a few minor documentation improvement
    projects/fixes).
-1. [ ] New team member: Get to know the group: read about the features, read
-   the documentation, try some of the features, review the group's vision page,
-   review its docs-only issue board, read all the documentation applicable to
-   it, and set up a meeting with the group Product Manager (PM) to get to know
-   them, their priorities, how they'd recommend staying in sync about docs-only
-   issue priorities on the board (and otherwise working together), and any
-   upcoming documentation needs.
-1. [ ] New team member: Create one or more issues and one MR as a result of
-   your documentation review, and link them here. Be sure to use the
-   appropriate stage, group, `documentation`, and `Technical Writing` labels:
-1. [ ] New team member: Add the links to any issues you're assigned as part of
-   the group for this milestone:
-1. [ ] New team member: Add the links to any other merge requests you're
-   assigned or authored here as part of the group:
-1. [ ] New team member: Add the links to other issues to which you're assigned
-   or MRs you authored or reviewed that don't pertain to the group (if any):
-1. [ ] New team member: Plan to address one or more docs-only issues for this
-   group during the next milestone. Get feedback and agreement from the PM and
-   your manager. Link the issues here:
+1. [ ] Get to know the group: read about the features, read the documentation,
+   try some of the features, review the group's vision page, review its
+   docs-only issue board, read all the documentation applicable to it, and set
+   up a meeting with the group Product Manager (PM) to get to know them, their
+   priorities, how they'd recommend staying in sync about docs-only issue
+   priorities on the board (and otherwise working together), and any upcoming
+   documentation needs.
+1. [ ] Create one or more issues and one MR as a result of your documentation
+   review, and link them here. Be sure to use the appropriate stage, group,
+   `documentation`, and `Technical Writing` labels:
+1. [ ] Add the links to any issues you're assigned as part of the group for
+   this milestone:
+1. [ ] Add the links to any other merge requests you're assigned or authored
+   here as part of the group:
+1. [ ] Add the links to other issues to which you're assigned or MRs you
+   authored or reviewed that don't pertain to the group (if any):
+1. [ ] Plan to address one or more docs-only issues for this group during the
+   next milestone. Get feedback and agreement from the PM and your manager.
+   Link the issues here:
 
 The trainee phase may be extended by an additional milestone at the discretion
 of the manager.
 
 #### Third release - Assigned with developer permissions and coach
 
-1. [ ] New team member: For the third release cycle, you assume the full role
-   of technical writer for the group, except that the former technical writer
-   assigned to the group is now the coach, who will review all your work
-   (including reviews you perform of other authors) before it is merged. They
-   may share the burden of these reviews with other technical writers.
-1. [ ] New team member: Submit an access request to become a maintainer for the
-   following projects:
+1. [ ] For the third release cycle, you assume the full role of technical
+   writer for the group, except that the former technical writer assigned to
+   the group is now the coach, who will review all your work (including reviews
+   you perform of other authors) before it is merged. They may share the burden
+   of these reviews with other technical writers.
+1. [ ] Submit an access request to become a maintainer for these projects:
    - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
    - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
    - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
@@ -155,7 +157,7 @@ of the manager.
    merge content without a coach as the technical writer for the group.
    Otherwise, your developer permissions and coach's collaboration may continue
    through another release.
-1. [ ] New team member: Add the links to other issues to which you're assigned
-   or MRs you authored or reviewed that don't pertain to the group, if any:
+1. [ ] Add the links to other issues to which you're assigned or MRs you
+   authored or reviewed that don't pertain to the group, if any:
 
 /label ~"onboarding" ~"Technical Writing"
