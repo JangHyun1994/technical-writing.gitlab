@@ -153,10 +153,17 @@ of the manager.
    - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
    - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit)
    Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new)
-   and tag your manager. Going forward, if the manager approves the MR, you can
+   and tag your manager. Going forward, if the manager approves the access request, you can
    merge content without a coach as the technical writer for the group.
    Otherwise, your developer permissions and coach's collaboration may continue
    through another release.
+1. [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console.
+   Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
+   - Go to <https://search.google.com/search-console>.
+   - In **URL Prefix** enter `https://docs.gitlab.com` and select **Continue**.
+   - Expand the **HTML Tag** section, and copy the code given.
+   - Open an MR to add the tag and your name to the list at <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/4b87b706ee1f32d2fa25e59d604750ca408f2359/layouts/head.html#L51>.
+     Submit the MR to your manager for approval and merge.
 1. [ ] Add the links to other issues to which you're assigned or MRs you
    authored or reviewed that don't pertain to the group, if any:
 
