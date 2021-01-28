@@ -159,11 +159,13 @@ of the manager.
    through another release.
 1. [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console.
    Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
-   - Go to <https://search.google.com/search-console>.
-   - In **URL Prefix** enter `https://docs.gitlab.com` and select **Continue**.
-   - Expand the **HTML Tag** section, and copy the code given.
-   - Open an MR to add the tag and your name to the list at <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/4b87b706ee1f32d2fa25e59d604750ca408f2359/layouts/head.html#L51>.
-     Submit the MR to your manager for approval and merge.
+
+   1. Go to <https://search.google.com/search-console>.
+   1. In **URL Prefix**, enter `https://docs.gitlab.com` and select **Continue**.
+   1. Expand the **HTML Tag** section, and copy the code given.
+   1. Open an MR to add the tag and your name to the list at <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/4b87b706ee1f32d2fa25e59d604750ca408f2359/layouts/head.html#L51>.
+   1. Submit the MR to your manager for approval and merge.
+
 1. [ ] Add the links to other issues to which you're assigned or MRs you
    authored or reviewed that don't pertain to the group, if any:
 
