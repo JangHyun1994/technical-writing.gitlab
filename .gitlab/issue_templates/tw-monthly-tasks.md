@@ -24,6 +24,7 @@ will ensure the following tasks are completed to help keep the `gitlab`,
   ```shell
   bundle exec rake pngquant:compress
   ```
+
 - [ ] **Search for and remove expired redirect files.** Do a global search for product documentation `.md` files with
   `This redirect file can be deleted after` to find the files that can now be deleted:
 
@@ -75,12 +76,15 @@ The following tasks have automated tests that you can run from a scheduled pipel
 1. Click the **Play** button for the `Run TW chores jobs` scheduled pipeline.
 1. Go to the [pipelines page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines)
    and find the pipeline you just triggered at the top. The pipeline has one stage,
-   with three manual jobs. Click **Play** on the jobs you wish to run:
+   with three manual jobs. Click **Play** on the jobs you want to run:
 
-   - [ ] **Check for unused images.** Run the `test_unused_images` job, which checks
-     all 4 projects to see if any images are no longer in use. It takes 30+ minutes
-     to run, so you may want to start this job first, then work on the other tasks
-     while waiting.
+   - [ ] **Check for unused files.** Run the `test_unlinked_files` job, which checks
+     all four projects to see if any files are no longer being linked to. It takes 30+
+     minutes to run, so you may want to start this job first, then work on the other
+     tasks while waiting.
+       - If any **images** aren't in use for any page, open an MR to delete them.
+       - If any **docs** aren't linked to from any other page, open an issue,
+         and then assign the issue to the TW for that stage/group.
    - [ ] **Check for broken external links.** Run the `test_external_links` job,
      and fix as many of the links as time permits. Be aware that:
      - You have to evaluate suggestions for new links; the forwarded link may also
