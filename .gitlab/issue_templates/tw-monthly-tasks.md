@@ -96,6 +96,12 @@ The following tasks have automated tests that you can run from a scheduled pipel
      - Links may disappear, such as external software reaching end-of-life.
      - Updated links may not provide the desired information; you may need to
        create an issue to resolve these links.
+     - If you find that a failing link is actually valid, it may need to be excluded
+       from the link checker. This could be due to a website that needs authentication,
+       or a site with a server that returns a response the link checker sees as a failure.
+       Go to <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/master/nanoc.yaml>
+       and add the link under `exclude:`, following the pattern of the other links
+       already there.
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
      find all pages with lines that have trailing whitespace that isn't needed.
 
