@@ -12,7 +12,7 @@ will ensure the following tasks are completed to help keep the `gitlab`,
   In the provided job log, search for `kramdown warning` messages, which are usually
   caused by problematic HTML or square brackets. If the warning is reported for line 1
   in a doc, it's likely the problem is in a Markdown table, which could be anywhere in the doc.
-- [ ] **Look for [uncompressed images](https://docs.gitlab.com/ee/development/documentation/styleguide.html#compress-images).**
+- [ ] **Look for [uncompressed images](https://docs.gitlab.com/ce/development/documentation/styleguide/index.html#compress-images).**
   Run the following commands in `gitlab-org/gitlab` to check if any uncompressed images exist:
 
   ```shell
@@ -33,6 +33,8 @@ will ensure the following tasks are completed to help keep the `gitlab`,
      ```shell
      grep -ri "This redirect file can be deleted after" .
      ```
+
+  Delete the files that have a deletion date on or before the current date.
 
   1. Note the filenames, redirect locations, and expiration dates of the expired
      redirect files, and then create an MR to remove those files.
