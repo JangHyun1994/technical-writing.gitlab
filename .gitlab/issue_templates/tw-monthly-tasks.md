@@ -25,12 +25,14 @@ will ensure the following tasks are completed to help keep the `gitlab`,
   bundle exec rake pngquant:compress
   ```
 
-- [ ] **Search for and remove expired redirect files.** Do a global search for product documentation `.md` files with
-  `This redirect file can be deleted after` to find the files that can now be deleted:
+- [ ] **Search for and remove expired redirect files.**
 
-  ```shell
-  grep -ri "This redirect file can be deleted after" .
-  ```
+  1. Do a global search for product documentation `.md` files with
+     `This redirect file can be deleted after` to find the files that can now be deleted:
+
+     ```shell
+     grep -ri "This redirect file can be deleted after" .
+     ```
 
   1. Note the filenames, redirect locations, and expiration dates of the expired
      redirect files, and then create an MR to remove those files.
@@ -66,6 +68,9 @@ will ensure the following tasks are completed to help keep the `gitlab`,
   1. Add the `gitlab-docs` MR as a dependency to any MRs that delete the redirect files
      in the other projects. Assign all MRs to the same Technical Writer, and explain that the
      `gitlab-docs` MR should be merged first, followed by the MRs in the other projects.
+
+     Be sure to `@`-mention `hsmith-watson` or `shanerice` in Marketing to allow them to
+     update any now-expired links on `about.gitlab.com`.
 
 ## Automated tasks
 
