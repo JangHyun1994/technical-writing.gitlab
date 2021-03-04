@@ -24,13 +24,13 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    channel in Slack. Tell us a bit more about yourself by using the
    [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit),
    and then during the first team meeting you're able to attend.
-1. [ ] In Slack, join #docs and #docs-team-onboarding. In the latter channel,
-   ask any questions that arise during your onboarding. Don't worry about
-   asking seemingly basic questions; everyone has joined the team bringing
-   their own knowledge and experience, and some of our practices may not be
-   obvious or documented. You can improve our onboarding (or other process
-   documentation) by creating MRs, issues, or mentioning ideas in the Slack
-   channel.
+1. [ ] Join the team's [Slack channels](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#slack-channels),
+   and #docs-team-onboarding. In the latter channel, ask any questions that
+   arise during your onboarding. Don't worry about asking seemingly basic
+   questions; everyone has joined the team bringing their own knowledge and
+   experience, and some of our practices may not be obvious or documented.
+   You can improve our onboarding (or other process documentation) by creating
+   MRs, issues, or mentioning ideas in the Slack channel.
 1. [ ] Read the following to become familiar with how technical writing is done
    at GitLab:
    1. [ ] [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
@@ -56,27 +56,17 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
       For the Release Post, reviews of each feature's details are reviewed by
       a technical writer. This is specified only in the [MR template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md), and
       not in the Handbook page.
-1. [ ] After setting up Git locally (per the general onboarding instructions),
-   perform the Nanoc static site generator installation/configuration per
-   <https://gitlab.com/gitlab-com/gitlab-docs/>. This prepares local
-   directories for you to work on the `/doc`(s) content in each GitLab
-   repository and locally build the documentation site to preview your changes.
 1. [ ] Learn about Danger checks, which fails pipelines for commit messages
    that are too long or break other rules, or auto-reply on issues missing
    certain labels. Rules are defined by the paths
    [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Dangerfile), with
    the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/danger).
-1. [ ] Review and bookmark the [list](https://about.gitlab.com/handbook/engineering/projects/)
-   for all Projects managed by GitLab Engineering, noting that the Technical
-   Writing team isn't involved in most of them.
 1. [ ] The Technical Writing team uses the Geekbot app in Slack to run
    asynchronous standups, which include the 'Morning Stretch' and
    'Wednesday Weekly' questions. Ask your onboarding buddy who can add you to
    the application.
-1. [ ] If you want to start feeling productive beyond your training, look at
-   our documentation issues with the
-   [_Good for 1st time contributors_](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Good%20for%201st%20time%20contributors&label_name%5B%5D=documentation)
-   label.
+1. [ ] If you want to start feeling productive beyond your training, ask your
+   onboarding buddy for a simple task to get you started.
 1. [ ] As you're reading, see if you can find the answers to
    [these questions](../../onboarding/tw_quiz.md). If you're unsure of
    something, ask your buddy or post in Slack. When you're ready, you can
@@ -90,10 +80,11 @@ don't wait for the end of the milestone.
 
 1. [ ] For the first release cycle beginning after your start date (the first
    18th), shadow your buddy's work in [their most active Stage Group], plus one
-   other stage group/writer, decided with your manager and the team. The
-   technical writers proactively share relevant issues, merge requests, and
-   communications with you by creating/using a #tw-onboarding-<groupname>
-   channel, and answer questions you have that arise in this context.
+   other stage group/writer, decided with your manager and the team. During
+   shadowing, the established technical writers proactively share relevant issues,
+   merge requests, and communications with you by creating/using a
+   #tw-onboarding-<groupname> channel, and answer questions you have that arise
+   in this context.
 1. [ ] Read about all stages and groups, and discuss with your manager whether
    there's a particular group that will need your coverage as technical writer,
    or multiple groups you may be interested in.
