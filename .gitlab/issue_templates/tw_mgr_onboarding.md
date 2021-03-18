@@ -16,7 +16,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 
 ### Onboarding steps
 
-To complement your GitLab onboarding issue, completing the following tasks will help with your your Technical Writing Manager duties:
+To complement your general GitLab and manager onboarding issues, completing the following tasks will help with your your Technical Writing Manager duties:
 
 - [ ] Say "hi" to the rest of the Technical Writing team in the #tw-team channel in Slack. Tell us a bit more about yourself by using the [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit), and then during the first team meeting you're able to attend.
 - [ ] Read the [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
@@ -35,25 +35,31 @@ To complement your GitLab onboarding issue, completing the following tasks will 
   1. Open an MR to add the tag and your name to the list at <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/4b87b706ee1f32d2fa25e59d604750ca408f2359/layouts/head.html#L51>.
   1. Submit the MR to your manager for approval and merge.
 
+- [ ] Schedule time with one of the Technical Writers you manage (separate from any introductory or 1:1 meetings) to walk you through the Technical Writing workflow.
+
 ### Reference information
 
 Make note of the following reference links and items of information, which may be helpful in your role.
 
-- [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
-- [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines)
-- Documentation Style Guide
+- Useful page links
+  - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html): The Technical Writing team's style guide for product documentation on <docs.gitlab.com>.
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html): This page (and its subpages) include information for GitLab developers about how to do their work, including how to document their work.
+  - [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines): These are good to be aware of, but apply more to general concepts, or for release post work.
+  - [GitLab Design System](https://design.gitlab.com/): Also known as Pajamas, this website describes the different elements of design that make up GitLab, including the available UI elements and how to interact with them.
+  - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/): This page describes the process used for each monthly GitLab milestone release (on the 22nd of each month). The Technical Writing team acts as reviewers for each release post items, and one technical writer (on a [rotating schedule](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks)) acts as the TW Lead for the release.
+  - [Product development flow](https://about.gitlab.com/handbook/product-development-flow/): This is the primary workflow for most of the developer teams. It would be worth reviewing the workflow for those portions that involve Technical Writing.
 - Terminology
-  - Merge requests - These are also commonly called _pull requests_ in the industry. This is commonly contracted to _MR_.
+  - Merge requests: These are also commonly called _pull requests_ in the industry. This is commonly contracted to _MR_.
+  - OKRs: [Objectives and Key Results](https://about.gitlab.com/company/okrs/), and these are the primary mechanism GitLab uses to identify and track quarterly improvement goals, both for departments and individuals.
+  - TWs: Technical Writers.
 - GitLab repository reference. It can be helpful to [star](https://docs.gitlab.com/ee/user/project/working_with_projects.html#star-a-project) these in GitLab for quick access.
   - <https://gitlab.com/gitlab-org/gitlab>: Create issues or MRs here for documentation and UI text relating to the main GitLab application. Documentation is located in the `/doc` directory.
   - <https://gitlab.com/gitlab-org/technical-writing>: Create Technical Writing team process issues here.
-  - <https://gitlab.com/gitlab-org/gitlab-docs>: Create issues or MRs here that relate to work being done specifically on the docs.gitlab.com website infrastruction (including the front end, back end, and CI, but excluding product documentation content).
+  - <https://gitlab.com/gitlab-org/gitlab-docs>: Create issues or MRs here that relate to work being done specifically on <docs.gitlab.com> infrastructure (including the front end, back end, and CI, but excluding product documentation content).
   - <https://gitlab.com/gitlab-com/www-gitlab-com>: Create issues and MRs here for updating any resource on <about.gitlab.com>, including the GitLab Handbook.
-  - <https://gitlab.com/gitlab-org/omnibus-gitlab>: Create issues or MRs regarding GitLab Omnibus, the primary installation method for GitLab in self-managed environments.
-- [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
-- [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
-- [Product development](https://about.gitlab.com/handbook/product-development-flow/)
+  - <https://gitlab.com/gitlab-org/omnibus-gitlab>: Create issues or MRs here that are in regards to GitLab Omnibus, the primary installation method for GitLab in self-managed environments.
 - Danger checks, which fails pipelines for commit messages that are too long or break other rules, or auto-reply on issues missing certain labels. Rules are defined by the paths [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Dangerfile), with the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/danger).
+- GitPod integration - GitPod allows you to run a temporary web environment that includes a running version of GitLab, along with access to the GitLab code repo in a GUI interface. [Doc link](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
 
 ### Manager tasks
 
