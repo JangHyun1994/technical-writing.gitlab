@@ -44,10 +44,12 @@ Make note of the following reference links and items of information, which may b
 - Documentation Style Guide
 - Terminology
   - Merge requests - These are also commonly called _pull requests_ in the industry. This is commonly contracted to _MR_.
-- GitLab repository reference
-  - gitlab (`gitlab-org`) - Create issues or MRs here for documentation and UI text relating to the main GitLab application. Documentation is located in the `/doc` directory.
-  - <https://gitlab.com/gitlab-org/technical-writing>: Process issues.
-  - <https://gitlab.com/gitlab-org/gitlab-docs>: Documentation site issues (including the front end, back end, and CI).
+- GitLab repository reference. It can be helpful to [star](https://docs.gitlab.com/ee/user/project/working_with_projects.html#star-a-project) these in GitLab for quick access.
+  - <https://gitlab.com/gitlab-org/gitlab>: Create issues or MRs here for documentation and UI text relating to the main GitLab application. Documentation is located in the `/doc` directory.
+  - <https://gitlab.com/gitlab-org/technical-writing>: Create Technical Writing team process issues here.
+  - <https://gitlab.com/gitlab-org/gitlab-docs>: Create issues or MRs here that relate to work being done specifically on the docs.gitlab.com website infrastruction (including the front end, back end, and CI, but excluding product documentation content).
+  - <https://gitlab.com/gitlab-com/www-gitlab-com>: Create issues and MRs here for updating any resource on <about.gitlab.com>, including the GitLab Handbook.
+  - <https://gitlab.com/gitlab-org/omnibus-gitlab>: Create issues or MRs regarding GitLab Omnibus, the primary installation method for GitLab in self-managed environments.
 - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
 - [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
 - [Product development](https://about.gitlab.com/handbook/product-development-flow/)
