@@ -43,7 +43,7 @@ Make note of the following reference links and items of information, which may b
 - [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines)
 - Documentation Style Guide
 - Terminology
-  - Merge requests - These are also commonly called "pull requests" in the industry. This is commonly contracted to "MR."
+  - Merge requests - These are also commonly called _pull requests_ in the industry. This is commonly contracted to _MR_.
 - GitLab repository reference
   - gitlab (`gitlab-org`) - Create issues or MRs here for documentation and UI text relating to the main GitLab application. Documentation is located in the `/doc` directory.
   - <https://gitlab.com/gitlab-org/technical-writing>: Process issues.
@@ -57,8 +57,16 @@ Make note of the following reference links and items of information, which may b
 
 The manager for the team member being onboarded must complete these tasks:
 
-1. [ ] Request that new team member be added to `docs@gitlab.com` and `ux-department@gitlab.com` email groups, and `@docsteam` user group in Slack (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
-1. [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
+- [ ] Request that new team member be added to `docs@gitlab.com` and `ux-department@gitlab.com` email groups, and `@docsteam` user group in Slack.
+- [ ] Ensure the new team member is added to the following Slack channels:
+   - `#docs`
+   - `#docs-comments`
+   - `#docs-processes`
+   - `#docs-tooling`
+   - `#tw-team`
+   - `#tw-social`
+   - `#tw_leadership`
+- [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 
 /label ~"onboarding" ~"Technical Writing"
 
