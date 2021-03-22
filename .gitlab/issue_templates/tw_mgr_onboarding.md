@@ -27,6 +27,7 @@ To complement your general GitLab and manager onboarding issues, completing the 
    - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
    - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
    - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit) Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new) and tag your manager.
+- [ ] Review the _Train the Trainer_ GitLab technical writing course materials. Ask your manager for access to the slides.
 - [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console. Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
 
   1. Go to <https://search.google.com/search-console>.
@@ -39,7 +40,7 @@ To complement your general GitLab and manager onboarding issues, completing the 
 
 ### Reference information
 
-Make note of the following reference links and items of information, which may be helpful in your role.
+The following reference links and items of information may be helpful in your role:
 
 - Useful page links
   - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html): The Technical Writing team's style guide for product documentation on <docs.gitlab.com>.
