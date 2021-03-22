@@ -33,34 +33,33 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    MRs, issues, or mentioning ideas in the Slack channel.
 1. [ ] Read the following to become familiar with how technical writing is done
    at GitLab:
-   1. [ ] [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
-   1. [ ] [GitLab Documentation guidelines](https://docs.gitlab.com/ce/development/documentation/index.html)
-      and the various pages linked from the introduction. Note that there are
-      [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines)
-      in addition to our Documentation Style Guide.
-      1. [ ] Per <https://docs.gitlab.com/ee/development/documentation/#source-files-and-rendered-web-locations>,
-         begin to familiarize yourself with the `gitlab` project's `doc`
-         directory.
-      1. [ ] In addition to the projects where content is maintained (like
-         `gitlab` and `runner`), review these key projects the team uses:
-         - <https://gitlab.com/gitlab-org/technical-writing>: Process issues.
-         - <https://gitlab.com/gitlab-org/gitlab-docs>: Documentation site
-           issues (including the front end, back end, and CI).
-   1. [ ] Review these processes, noting the mentions of "documentation" and
-      "technical writer"/"technical writing":
+   - [ ] [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
+   - [ ] [GitLab Documentation guidelines](https://docs.gitlab.com/ce/development/documentation/index.html)
+     and the various pages linked from the introduction. Note that there are
+     [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines)
+     in addition to our Documentation Style Guide.
+      - [ ] Per <https://docs.gitlab.com/ee/development/documentation/#source-files-and-rendered-web-locations>,
+        begin to familiarize yourself with the `gitlab` project's `doc`
+        directory.
+      - [ ] In addition to the projects where content is maintained (like
+        `gitlab` and `runner`), review these key projects the team uses:
+        - <https://gitlab.com/gitlab-org/technical-writing>: Process issues.
+        - <https://gitlab.com/gitlab-org/gitlab-docs>: Documentation site
+          issues (including the frontend, backend, and CI).
+   - [ ] Review these processes, noting the mentions of "documentation" and
+     "technical writer"/"technical writing":
+     - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/#tw-lead)
+     - [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
+     - [Product development](https://about.gitlab.com/handbook/product-development-flow/)
 
-      - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
-      - [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
-      - [Product development](https://about.gitlab.com/handbook/product-development-flow/)
-
-      For the Release Post, reviews of each feature's details are reviewed by
-      a technical writer. This is specified only in the [MR template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md), and
-      not in the Handbook page.
-1. [ ] Learn about Danger checks, which fails pipelines for commit messages
-   that are too long or break other rules, or auto-reply on issues missing
-   certain labels. Rules are defined by the paths
-   [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Dangerfile), with
-   the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/danger).
+     For the Release Post items, reviews of each feature's details are reviewed by
+     the technical writer assigned to each stage/group. This is specified only in the [MR template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md), and
+     not in the Handbook page.
+1. [ ] Install [GitLab Docs Shell](https://gitlab.com/gitlab-org/docs-shell) to obtain all the
+repositories that <https://docs.gitlab.com> pulls from and all the dependencies needed for building,
+previewing, and testing GitLab product documentation locally.
+[Installation instructions](https://gitlab.com/gitlab-org/docs-shell/-/blob/master/docs/installation.md).
+1. [ ] Familiarize yourself with GitLab's [merge requests guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
 1. [ ] The Technical Writing team uses the Geekbot app in Slack to run
    asynchronous standups, which include the 'Morning Stretch' and
    'Wednesday Weekly' questions. Ask your onboarding buddy who can add you to
