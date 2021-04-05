@@ -6,7 +6,7 @@ will ensure the following tasks are completed to help keep the `gitlab`,
 
 ## Manual tasks
 
-- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/tree/master/.gitlab/issue_templates), if needed.**
+- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
 - [ ] **Review the Kramdown build logs for warnings.** On the [docs pipeline page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines),
   select any recent pipeline. In its **Jobs** tab, select `compile_prod` or `compile_dev`.
   In the provided job log, search for `kramdown warning` messages, which are usually
@@ -34,10 +34,10 @@ will ensure the following tasks are completed to help keep the `gitlab`,
      grep -ri "This redirect file can be deleted after" .
      ```
 
-  Delete the files that have a deletion date on or before the current date.
+  Delete any files that have a deletion date on or before the current date.
 
   1. Note the filenames, redirect locations, and expiration dates of the expired
-     redirect files, and then create an MR to remove those files.
+     redirect files, and then create an MR to remove those files (but don't assign it for merge yet).
   1. Create an MR in [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) to update
      [`content/_data/redirects.yaml`](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/master/content/_data/redirects.yaml)
      with one redirect entry for each file you're removing. The expiry date should
@@ -71,7 +71,7 @@ will ensure the following tasks are completed to help keep the `gitlab`,
      in the other projects. Assign all MRs to the same Technical Writer, and explain that the
      `gitlab-docs` MR should be merged first, followed by the MRs in the other projects.
 
-     Be sure to `@`-mention `hsmith-watson` or `shanerice` in Marketing to allow them to
+     Be sure to `@`-mention `hsmith-watson` or `shanerice` in Marketing so they can
      update any now-expired links on `about.gitlab.com`.
 
 ## Automated tasks
@@ -91,18 +91,19 @@ The following tasks have automated tests that you can run from a scheduled pipel
      tasks while waiting.
        - If any **images** aren't in use for any page, open an MR to delete them.
        - If any **docs** aren't linked to from any other page, open an issue,
-         and then assign the issue to the TW for that stage/group.
+         and then assign the issue to the TW for that stage/group. Check the previous
+         TW chores issue to see if any are repeats.
    - [ ] **Check for broken external links.** Run the `test_external_links` job,
      and fix as many of the links as time permits. Be aware that:
-     - You have to evaluate suggestions for new links; the forwarded link may also
+     - You have to evaluate suggestions for new links, as the forwarded link may also
        be broken or may redirect again to another page.
      - The forwarded link may include a trailing forward slash. While not required
        for most browsers, the trailing slash can help prevent errors.
      - The forwarded link may not include section title links (anchors), such as
        `#section-title`. You may need to add the `#section-title` manually.
      - Links may disappear, such as external software reaching end-of-life.
-     - Updated links may not provide the desired information; you may need to
-       create an issue to resolve these links.
+     - Updated links may not provide the desired information. You may need to
+       create an issue and assign to an SME to resolve these links.
      - If you find that a failing link is actually valid, it may need to be excluded
        from the link checker. This could be due to a website that needs authentication,
        or a site with a server that returns a response the link checker sees as a failure.
@@ -118,6 +119,11 @@ task.
 If you have problems (such as broken links without obvious replacements), ask
 in the appropriate Slack channel, or open an issue/MR. Note that these tasks
 aren't intended to solve 100% of related technical debt.
+
+## Assign the next TW
+
+- [ ] Create a new issue for the next month's chores, and assign it to the next TW
+  on the schedule at: <https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks>
 
 /label ~Technical Writing
 /label ~tw::doing
