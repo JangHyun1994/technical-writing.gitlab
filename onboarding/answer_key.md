@@ -1,11 +1,5 @@
 # Answers to the research questions
 
-1. What does the `backstage` label mean?
-
-   Use this label for non-user-facing work, such as technical debt, refactoring, etc.
-
-   [Learn more about the labels we use](https://about.gitlab.com/handbook/engineering/management/throughput/#implementation).
-
 1. What is Pajamas and who uses it?
 
    The GitLab UI design system for GitLab. It's available at [https://design.gitlab.com/](https://design.gitlab.com/).
