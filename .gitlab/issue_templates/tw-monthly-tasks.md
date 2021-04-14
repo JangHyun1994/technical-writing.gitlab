@@ -85,14 +85,10 @@ The following tasks have automated tests that you can run from a scheduled pipel
    and find the pipeline you just triggered at the top. The pipeline has one stage,
    with three manual jobs. Click **Play** on the jobs you want to run:
 
-   - [ ] **Check for unused files.** Run the `test_unlinked_files` job, which checks
-     all four projects to see if any files are no longer being linked to. It takes 30+
-     minutes to run, so you may want to start this job first, then work on the other
-     tasks while waiting.
-       - If any **images** aren't in use for any page, open an MR to delete them.
-       - If any **docs** aren't linked to from any other page, open an issue,
-         and then assign the issue to the TW for that stage/group. Check the previous
-         TW chores issue to see if any are repeats.
+   - [ ] **Check for unused images.** Run the `test_unused_images` job, which checks
+     all 4 projects to see if any images are no longer in use. It takes 30+ minutes
+     to run, so you may want to start this job first, then work on the other tasks
+     while waiting.
    - [ ] **Check for broken external links.** Run the `test_external_links` job,
      and fix as many of the links as time permits. Be aware that:
      - You have to evaluate suggestions for new links, as the forwarded link may also
