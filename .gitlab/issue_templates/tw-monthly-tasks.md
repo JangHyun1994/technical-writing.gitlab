@@ -1,40 +1,36 @@
 # Technical Writing recurring tasks for: YYYY-MM
 
 Each month, the Technical Writer [assigned to recurring tasks](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks)
-will ensure the following tasks are completed to help keep the `gitlab`,
-`charts`, `gitlab-runner`, and `omnibus-gitlab` repositories in good condition:
+ensures the following tasks are completed to help minimize technical debt.
 
-## Manual tasks
+## Local tasks
 
-- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
-- [ ] **Review the Kramdown build logs for warnings.** On the [docs pipeline page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines),
-  select any recent pipeline. In its **Jobs** tab, select `compile_prod` or `compile_dev`.
-  In the provided job log, search for `kramdown warning` messages, which are usually
-  caused by problematic HTML or square brackets. If the warning is reported for line 1
-  in a doc, it's likely the problem is in a Markdown table, which could be anywhere in the doc.
+The following tasks have tests that must be run locally on your workstation. To perform these tasks:
+
 - [ ] **Look for [uncompressed images](https://docs.gitlab.com/ce/development/documentation/styleguide/index.html#compress-images).**
-  Run the following commands in `gitlab-org/gitlab` to check if any uncompressed images exist:
 
-  ```shell
-  bundle exec rake pngquant:lint
-  ```
+  1. Run the following commands in `gitlab-org/gitlab` to check if any uncompressed images exist:
 
-  If there are any results, create a new branch and compress the images with:
+     ```shell
+     bundle exec rake pngquant:lint
+     ```
 
-  ```shell
-  bundle exec rake pngquant:compress
-  ```
+  1. If there are any results, create a new branch and compress the images with:
+
+     ```shell
+     bundle exec rake pngquant:compress
+     ```
 
 - [ ] **Search for and remove expired redirect files.**
 
-  1. Do a global search for product documentation `.md` files with
+  1. Do a global search for product documentation `.md` files with the search term
      `This redirect file can be deleted after` to find the files that can now be deleted:
 
      ```shell
      grep -ri "This redirect file can be deleted after" .
      ```
 
-  Delete any files that have a deletion date on or before the current date.
+     Delete any files that have a deletion date on or before the current date.
 
   1. Note the filenames, redirect locations, and expiration dates of the expired
      redirect files, and then create an MR to remove those files (but don't assign it for merge yet).
@@ -56,7 +52,7 @@ will ensure the following tasks are completed to help keep the `gitlab`,
      `/runner`, `/omnibus` or `/charts`) and end with `.html` or `/`.
 
      If the `from:` redirect is an `index.html` file, add a duplicate entry for
-     the `/` URL (without `index.html). For example:
+     the `/` URL (without `index.html`). For example:
 
      ```yaml
      - from: /ee/user/project/operations/index.html
@@ -71,22 +67,31 @@ will ensure the following tasks are completed to help keep the `gitlab`,
      in the other projects. Assign all MRs to the same Technical Writer, and explain that the
      `gitlab-docs` MR should be merged first, followed by the MRs in the other projects.
 
-     Be sure to `@`-mention `hsmith-watson` or `shanerice` in Marketing so they can
-     update any now-expired links on `about.gitlab.com`.
+     Be sure to `@`-mention `hsmith-watson` in Marketing so they can update any now-expired links on
+     `about.gitlab.com`.
 
-## Automated tasks
+## Remote tasks
 
-The following tasks have automated tests that you can run from a scheduled pipeline in the
-`gitlab-docs` project. To run the pipeline:
+The following tasks have tests that you can run from pipelines in the `gitlab-docs` project.
+Some of the tests may not return any results, and no further work is required for that
+task. To perform these tasks:
 
 1. Go to the [pipeline schedules page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipeline_schedules).
 1. Click the **Play** button for the `Run TW chores jobs` scheduled pipeline.
 1. Go to the [pipelines page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines)
-   and find the pipeline you just triggered at the top. The pipeline has one stage,
-   with three manual jobs. Click **Play** on the jobs you want to run:
+   and find the pipeline you just triggered at the top. The pipeline has two stages.
+   
+   The first stage runs the `compile_dev` job automatically:
+
+   - [ ] **Review the Kramdown build logs for warnings.** Check the `compile_dev`
+     job log, and search for `kramdown warning` messages (which are usually caused
+     by malformed Markdown). If the warning is reported for line 1 in a file, it's
+     likely the problem is in a Markdown table, which could be anywhere in the file.
+
+   The second stage has three manual jobs. Click **Play** on the jobs you want to run:
 
    - [ ] **Check for unused images.** Run the `test_unused_images` job, which checks
-     all 4 projects to see if any images are no longer in use. It takes 30+ minutes
+     all 4 projects to see if any images are no longer in use. It takes 40+ minutes
      to run, so you may want to start this job first, then work on the other tasks
      while waiting.
    - [ ] **Check for broken external links.** Run the `test_external_links` job,
@@ -107,19 +112,25 @@ The following tasks have automated tests that you can run from a scheduled pipel
        and add the link under `exclude:`, following the pattern of the other links
        already there.
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
-     find all pages with lines that have trailing whitespace that isn't needed.
+     find all pages with lines that have trailing whitespace that isn't needed. To fix:
 
-Some of the tests may not return any results, and no further work is required for that
-task.
+     - In the `gitlab` project, run (with `yarn` dependencies installed):
 
-If you have problems (such as broken links without obvious replacements), ask
-in the appropriate Slack channel, or open an issue/MR. Note that these tasks
-aren't intended to solve 100% of related technical debt.
+       ```shell
+       yarn run markdownlint:no-trailing-spaces:fix doc
+       ```
 
-## Assign the next TW
+     - In the other projects, fix manually.
 
+If you have problems (such as broken links without obvious replacements), ask in the appropriate
+Slack channel, or open an issue/MR. Note that these tasks aren't intended to solve 100% of related
+technical debt.
+
+## Final steps
+
+- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
 - [ ] Create a new issue for the next month's chores, and assign it to the next TW
-  on the schedule at: <https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks>
+  [on the schedule](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks).
 
 /label ~Technical Writing
 /label ~tw::doing
