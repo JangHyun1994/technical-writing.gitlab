@@ -55,10 +55,8 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
      For the Release Post items, reviews of each feature's details are reviewed by
      the technical writer assigned to each stage/group. This is specified only in the [MR template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md), and
      not in the Handbook page.
-1. [ ] Install [GitLab Docs Shell](https://gitlab.com/gitlab-org/docs-shell) to obtain all the
-repositories that <https://docs.gitlab.com> pulls from and all the dependencies needed for building,
-previewing, and testing GitLab product documentation locally.
-[Installation instructions](https://gitlab.com/gitlab-org/docs-shell/-/blob/master/docs/installation.md).
+1. [ ] [Set up your computer](https://about.gitlab.com/handbook/engineering/ux/technical-writing/setup/)
+   for writing and previewing GitLab product documentation.
 1. [ ] Familiarize yourself with GitLab's [merge requests guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
 1. [ ] The Technical Writing team uses the Geekbot app in Slack to run
    asynchronous standups, which include the 'Morning Stretch' and
