@@ -16,7 +16,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 
 ### Onboarding steps
 
-To complement your general GitLab and manager onboarding issues, completing the following tasks will help with your your Technical Writing Manager duties:
+To complement your general GitLab and manager onboarding issues, completing the following tasks will help with your Technical Writing Manager duties:
 
 - [ ] Say "hi" to the rest of the Technical Writing team in the #tw-team channel in Slack. Tell us a bit more about yourself by using the [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit), and then during the first team meeting you're able to attend.
 - [ ] Read the [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
@@ -58,8 +58,8 @@ The following reference links and items of information may be helpful in your ro
   - <https://gitlab.com/gitlab-org/technical-writing>: Create Technical Writing team process issues here.
   - <https://gitlab.com/gitlab-org/gitlab-docs>: Create issues or MRs here that relate to work being done specifically on <docs.gitlab.com> infrastructure (including the front end, back end, and CI, but excluding product documentation content).
   - <https://gitlab.com/gitlab-com/www-gitlab-com>: Create issues and MRs here for updating any resource on <about.gitlab.com>, including the GitLab Handbook.
-  - <https://gitlab.com/gitlab-org/omnibus-gitlab>: Create issues or MRs here that are in regards to GitLab Omnibus, the primary installation method for GitLab in self-managed environments.
-- Danger checks, which fails pipelines for commit messages that are too long or break other rules, or auto-reply on issues missing certain labels. Rules are defined by the paths [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Dangerfile), with the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/danger).
+  - <https://gitlab.com/gitlab-org/omnibus-gitlab>: Create issues or MRs here that are in regards to Omnibus GitLab, the primary installation method for GitLab in self-managed environments.
+- Danger checks, which fails pipelines for commit messages that are too long or break other rules, or auto-reply on issues missing certain labels. Rules are defined by the paths [here](https://gitlab.com/gitlab-org/gitlab/-/blob/master/Dangerfile), with the code for each rule (each DangerFile) located [here](https://gitlab.com/gitlab-org/gitlab/-/tree/master/danger).
 - GitPod integration - GitPod allows you to run a temporary web environment that includes a running version of GitLab, along with access to the GitLab code repo in a GUI interface. [Doc link](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
 
 ### Manager tasks
