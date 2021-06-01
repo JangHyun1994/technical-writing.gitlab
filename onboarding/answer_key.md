@@ -34,7 +34,7 @@
 
 1. How do you add a new topic to the global nav bar (on the left)?
 
-   Update the [data files](https://gitlab.com/gitlab-org/gitlab-docs/tree/master/content/_data). For more information, see [Global navigation](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html).
+   Update the [data files](https://gitlab.com/gitlab-org/gitlab-docs/tree/main/content/_data). For more information, see [Global navigation](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html).
 
 1. How do you differentiate between features that exist only in certain [tiers](https://about.gitlab.com/handbook/marketing/product-marketing/tiers/)?
 
