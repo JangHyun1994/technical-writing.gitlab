@@ -66,9 +66,9 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    onboarding buddy for a simple task to get you started.
 1. [ ] Verify you have access to view the UX Meetings calendar, and add the calendar. Go to your calendar, left sidebar, go to Other calendars, press the + sign, Subscribe to calendar, and enter in the search field `gitlab.com_9psh26fha3e4mvhlrefusb619k@group.calendar.google.com` and then press Enter on your keyboard. NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone's calendar.
 1. [ ] As you're reading, see if you can find the answers to
-   [these questions](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/onboarding/tw_quiz.md). If you're unsure of
+   [these questions](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/onboarding/tw_quiz.md). If you're unsure of
    something, ask your buddy or post in Slack. When you're ready, you can
-   [check your answers](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/onboarding/answer_key.md).
+   [check your answers](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/onboarding/answer_key.md).
 
 In the following sections, link to the issues and MRs you're assigned to or
 that you create. Edit the issue and include those links as soon as they exist;

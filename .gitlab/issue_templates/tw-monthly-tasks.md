@@ -35,7 +35,7 @@ The following tasks have tests that must be run locally on your workstation. To 
   1. Note the filenames, redirect locations, and expiration dates of the expired
      redirect files, and then create an MR to remove those files (but don't assign it for merge yet).
   1. Create an MR in [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) to update
-     [`content/_data/redirects.yaml`](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/master/content/_data/redirects.yaml)
+     [`content/_data/redirects.yaml`](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/content/_data/redirects.yaml)
      with one redirect entry for each file you're removing. The expiry date should
      be nine months in the future. Keep the entries alphabetically sorted.
 
@@ -108,7 +108,7 @@ task. To perform these tasks:
      - If you find that a failing link is actually valid, it may need to be excluded
        from the link checker. This could be due to a website that needs authentication,
        or a site with a server that returns a response the link checker sees as a failure.
-       Go to <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/master/nanoc.yaml>
+       Go to <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/nanoc.yaml>
        and add the link under `exclude:`, following the pattern of the other links
        already there.
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
@@ -128,7 +128,7 @@ technical debt.
 
 ## Final steps
 
-- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/master/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
+- [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
 - [ ] Create a new issue for the next month's chores, and assign it to the next TW
   [on the schedule](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks).
 
