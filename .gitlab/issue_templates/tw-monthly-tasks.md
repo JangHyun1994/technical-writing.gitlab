@@ -90,7 +90,7 @@ task. To perform these tasks:
 
    The second stage has three manual jobs. Click **Play** on the jobs you want to run:
 
-   - [ ] **Check for unused images.** Run the `test_unused_images` job, which checks
+   - [ ] **Check for unlinked images.** Run the `test_unlinked_images` job, which checks
      all 4 projects to see if any images are no longer in use. It takes 40+ minutes
      to run, so you may want to start this job first, then work on the other tasks
      while waiting.
