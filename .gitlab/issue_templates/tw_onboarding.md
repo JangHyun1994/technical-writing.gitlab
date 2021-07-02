@@ -34,6 +34,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
 1. [ ] Read the following to become familiar with how technical writing is done
    at GitLab:
    - [ ] [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
+   - [ ] Review the [GitLab Technical Writing Fundamentals](https://about.gitlab.com/handbook/engineering/ux/technical-writing/fundamentals/).
    - [ ] [GitLab Documentation guidelines](https://docs.gitlab.com/ce/development/documentation/index.html)
      and the various pages linked from the introduction. Note that there are
      [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines)
