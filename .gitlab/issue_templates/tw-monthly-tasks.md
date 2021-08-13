@@ -9,17 +9,15 @@ The following tasks have tests that must be run locally on your workstation. To 
 
 - [ ] **Look for [uncompressed images](https://docs.gitlab.com/ce/development/documentation/styleguide/index.html#compress-images).**
 
-  1. Run the following commands in `gitlab-org/gitlab` to check if any uncompressed images exist:
-
-     ```shell
-     bundle exec rake pngquant:lint
-     ```
-
-  1. If there are any results, create a new branch and compress the images with:
+  1. Run the following command in `gitlab-org/gitlab` to check if any uncompressed images exist
+     and compress them:
 
      ```shell
      bundle exec rake pngquant:compress
      ```
+
+  1. If there are any results, create a new branch and then a merge request.
+     Assign to any TW for merge.
 
 - [ ] **Search for and remove expired redirect files.**
 
