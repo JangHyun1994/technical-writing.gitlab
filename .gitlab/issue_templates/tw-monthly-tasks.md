@@ -23,46 +23,25 @@ The following tasks have tests that must be run locally on your workstation. To 
 
 - [ ] **Search for and remove expired redirect files.**
 
-  1. Do a global search for product documentation `.md` files with the search term
-     `This redirect file can be deleted after` to find the files that can now be deleted:
+  1. Run the following command in `gitlab-org/gitlab-docs` to check if any redirected
+     files need to be removed. This will
+     [automatically create](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/README.md#clean-up-redirects)
+     all the needed MRs:
 
      ```shell
-     grep -ri "This redirect file can be deleted after" .
+     bundle exec rake docs:clean_redirects
      ```
 
-     Delete any files that have a deletion date on or before the current date.
-
-  1. Note the filenames, redirect locations, and expiration dates of the expired
-     redirect files, and then create an MR to remove those files (but don't assign it for merge yet).
-  1. Create an MR in [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) to update
-     [`content/_data/redirects.yaml`](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/content/_data/redirects.yaml)
-     with one redirect entry for each file you're removing. The expiry date should
-     be nine months in the future. Keep the entries alphabetically sorted.
-
-     ```yaml
-     - from: /ee/path/to/old_file.html
-       to: /ee/path/to/new_file.html
-       remove_date: YYYY-MM-DD
-     ```
-
-     Any redirect files that redirect to external docs (those starting with `https://`)
-     should be deleted, with nothing added to the `redirects.yaml`.
-
-     The path must start with the internal project directory (`/ee`,
-     `/runner`, `/omnibus` or `/charts`) and end with `.html` or `/`.
-
-     If the `from:` redirect is an `index.html` file, add a duplicate entry for
-     the `/` URL (without `index.html`). For example:
-
-     ```yaml
-     - from: /ee/user/project/operations/index.html
-       to: /ee/operations/index.html
-       remove_date: 2021-11-01
-     - from: /ee/user/project/operations/
-       to: /ee/operations/index.html
-       remove_date: 2021-11-01
-     ```
-
+     The task only removes the expired redirected files. There might be cases
+     where some docs checks fail, so you'll need to fix those yourself.
+     In [this example MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/68139):
+     - [`docs-lint links` failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/1501259729)
+       because the deleted file was referenced somewhere else. You need to edit
+       the two files where the deleted doc was referenced and update them with the
+       new doc URL (its `redirect_to` value).
+     - [`docs-lint markdown` failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/1501259728)
+       because one or more `README.md` files were deleted. The number of `README.md` files must
+       be [updated in `lint-docs.sh`](https://gitlab.com/gitlab-org/gitlab/-/blob/4280e2f335ca4d425d607826fffce080381abe4c/scripts/lint-doc.sh#L70).
   1. Add the `gitlab-docs` MR as a dependency to any MRs that delete the redirect files
      in the other projects. Assign all MRs to the same Technical Writer, and explain that the
      `gitlab-docs` MR should be merged first, followed by the MRs in the other projects.
