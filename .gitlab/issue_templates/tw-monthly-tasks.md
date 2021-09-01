@@ -3,6 +3,22 @@
 Each month, the Technical Writer [assigned to recurring tasks](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks)
 ensures the following tasks are completed to help minimize technical debt.
 
+## Suggested order
+
+These recurring tasks require a varying amount of time to complete. To make efficient use of your time, they are grouped according to the amount of time they usually take.
+
+These tasks can sometimes take a long time:
+
+- Review the Kramdown build logs for warnings.
+- Check for broken external links.
+- Search for and remove expired redirect files.
+
+These tasks usually don't take as much time:
+
+- Look for uncompressed images.
+- Check for unlinked images.
+- Check for trailing whitespace.
+
 ## Local tasks
 
 The following tasks have tests that must be run locally on your workstation. To perform these tasks:
@@ -91,13 +107,17 @@ task. To perform these tasks:
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
      find all pages with lines that have trailing whitespace that isn't needed. To fix:
 
-     - In the `gitlab` project, run (with `yarn` dependencies installed):
+     - In the root of the `gitlab` project, run (with `yarn` dependencies installed):
 
        ```shell
        yarn run markdownlint:no-trailing-spaces:fix doc
        ```
 
      - In the other projects, fix manually.
+
+       NOTE:
+       For MRs not in the `gitlab` project, prefix the branch name `docs-`. This ensures the pipeline
+       runs only docs-specific jobs.
 
 If you have problems (such as broken links without obvious replacements), ask in the appropriate
 Slack channel, or open an issue/MR. Note that these tasks aren't intended to solve 100% of related
