@@ -14,8 +14,6 @@
 - [ ] Reach out to the Product Manager and Engineering Manager to communicate the change.
   - [ ] PM: _TBD_
   - [ ] EM: _TBD_
-- [ ] In the `www-gitlab-com` repository, find your team biography (in a subfolder of
-  `data/team_members/person`) and update your role.
 
 Be sure to provide any additional useful information about working with the group, including
 how they prefer to communicate in issues/MRs regarding reviews.
@@ -37,9 +35,12 @@ how they prefer to communicate in issues/MRs regarding reviews.
   - [ ] UX designer associated with the group
 - In the `www-gitlab-com` repository, update:
   - [ ] [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml), with your new assignment.
-  - [ ] Find your team biography (in a subfolder of `data/team_members/person`) and update your role.
 - In the `gitlab` repository, update as needed:
   - [ ] [`.gitlab/CODEOWNERS`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS)
 - [ ] Read the product documentation associated with your group (as identified by the group attribute in documentation pages' metadata).
+
+## Tasks for technical writing manager
+
+- [ ] Update [BambooHR](https://about.gitlab.com/company/team/structure/#setting-product-group-for-team-members) with the new group assignments. BambooHR automatically updates the group assignments in `data/team_members/person`.
 
 /label ~"Technical Writing"
