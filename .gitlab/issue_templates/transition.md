@@ -35,6 +35,7 @@ how they prefer to communicate in issues/MRs regarding reviews.
   - [ ] UX designer associated with the group
 - In the `www-gitlab-com` repository, update:
   - [ ] [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml), with your new assignment.
+  - [ ] The listing of technical writers in [`sites/handbook/source/includes/product/_categories-names.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/product/_categories-names.erb) if you've never been responsible for a stage or group before.
 - In the `gitlab` repository, update as needed:
   - [ ] [`.gitlab/CODEOWNERS`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS)
 - [ ] Read the product documentation associated with your group (as identified by the group attribute in documentation pages' metadata).
