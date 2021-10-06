@@ -27,7 +27,7 @@ Do not change the text for settings themselves. If you do feel strongly that a s
 
 ## How to update the text
 
-After you've reviewed the text, you'll need to implement any changes or improvements in the GitLab application.
+After you've reviewed the text, you'll need to implement any changes or improvements in the GitLab application. For an orientation demo on finding and updating UI text, take a look at this 6-minute [video](https://youtu.be/Gs3K0_VjlpM).
 
 1. Search the code for the section name to find the UI text to be modified. You may need to modify more than
    one file to complete your text update work for the section. For example, seeing `render_if_exists` for an
