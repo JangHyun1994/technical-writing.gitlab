@@ -13,6 +13,8 @@ The manager for the person being onboarded must complete these tasks:
 1. [ ] Determine and assign group for trainee (for example, to work towards
    being assigned as its technical writer).
 1. [ ] Determine and schedule further group assignments.
+1. [ ] Add the new team member to the following configuration files:
+   - [`sites/handbook/source/includes/product/_categories-names.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/product/_categories-names.erb)
 
 ### Team member tasks
 
