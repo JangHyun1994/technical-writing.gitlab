@@ -152,6 +152,11 @@ of the manager.
    merge content without a coach as the technical writer for the group.
    Otherwise, your developer permissions and coach's collaboration may continue
    through another release.
+1. [ ] When you have maintainer access to the previously listed projects, submit an MR to update your [team
+member](https://about.gitlab.com/company/team/)
+ file with your project permissions. This change will have an effect:
+   - On projects here: https://about.gitlab.com/handbook/engineering/projects/.
+   - On the GitLab Review Workload Dashboard page here: https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&hourFormat24=true&visible=maintainer%7Cdocs.
 1. [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console.
    Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
 
