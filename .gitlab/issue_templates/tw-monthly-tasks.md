@@ -39,7 +39,7 @@ The following tasks have tests that must be run locally on your workstation. To 
 
   1. Run the following command in `gitlab-org/gitlab-docs` to check if any redirected
      files need to be removed. This will
-     [automatically create](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/README.md#clean-up-redirects)
+     [automatically create](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/raketasks.md#clean-up-redirects)
      all the needed MRs:
 
      ```shell
