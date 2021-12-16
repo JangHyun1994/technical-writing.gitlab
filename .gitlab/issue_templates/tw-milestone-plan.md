@@ -1,8 +1,14 @@
 # Technical Writing milestone plan for: xx.x
 
-This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone.
+As a result of the [FY2022Q3 OKR, Balance tech writer workload by improving the planning and estimation process for feature docs](https://gitlab.com/gitlab-org/technical-writing/-/issues/453), we determined that the following plan would help us begin to consolidate release planning for the TW team. 
 
-**By the `22nd` of each month:**
+**Why is release planning for the tech writing team important?** First, we are almost entirely reactive. Our workflow has writers constantly responding to developer reviews to update the docs. We don't have a consistent planning process across the team. That makes it hard for us to estimate our capacity. Second, we also have had a [long-standing focus on Improvement MRs](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#distribution-of-technical-writing-team-documentation-effort) (now called Maintenance.) How do we plan for OKRs, improvement projects, and backlog items if we don't understand what's coming for release docs? All of this contributes to the question: How do we know when we have the correct number of writers on the team? 
+
+Beginning to understand what's coming in each release across stages will help us plan for more Improvement projects and OKRs, such as the [CTRT OKR](https://app.ally.io/objectives/1665339?time_period_id=135093) already scheduled. We know findability is a problem on the docs site, and that users struggle to figure out how to use GitLab. Moving from reactive to proactive working will benefit our users by allowing us to plan to focus on targeted improvements.
+
+This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone. In addition to the work with their assigned groups, the [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/) also works on [OKRs](https://about.gitlab.com/handbook/engineering/ux/#okrs) and other tasks that are not reflected in this issue.
+
+**By the `15th` of each month:**
 
 One of the TW Managers creates the issue for the upcoming milestone.
 
@@ -104,24 +110,24 @@ The TW carries out the following planning activities for their assigned groups, 
 |--------------|-----------|--------------------------|
 | ~"group::activation" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::conversion" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::group::expansion" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::group::adoption" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::group::product intelligence" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::expansion" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::adoption" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::product intelligence" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::fulfillment"
 
 | Group  | Link to board or filter | Reviewed with PM or EM | 
 |--------------|-----------|--------------------------|
 | ~"group::purchase" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::group::license" | `Link to board or filter` | `[ ]` Yes |
-| ~"group:group::utilization" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::license" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::utilization" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::enablement"
 
 | Group  | Link to board or filter | Reviewed with PM or EM | 
 |--------------|-----------|--------------------------|
-| ~"group::build" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::deploy" | `Link to board or filter` | `[ ]` Yes |
+| ~"Distribution:Build" | `Link to board or filter` | `[ ]` Yes |
+| ~"Distribution:Deploy" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::geo" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::memory" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::global search" | `Link to board or filter` | `[ ]` Yes |
