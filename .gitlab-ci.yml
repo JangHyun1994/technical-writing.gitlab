@@ -1,0 +1,8 @@
+image: ruby:2.7.5-alpine3.15
+
+create_tw_planning_issue:
+  script:
+    - gem install --no-doc gitlab
+    - ruby bin/tw-milestone-plan.rb
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"

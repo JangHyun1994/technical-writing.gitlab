@@ -1,8 +1,6 @@
-# Technical Writing milestone plan for: xx.x
+As a result of the [FY2022Q3 OKR, Balance tech writer workload by improving the planning and estimation process for feature docs](https://gitlab.com/gitlab-org/technical-writing/-/issues/453), we determined that the following plan would help us begin to consolidate release planning for the TW team.
 
-As a result of the [FY2022Q3 OKR, Balance tech writer workload by improving the planning and estimation process for feature docs](https://gitlab.com/gitlab-org/technical-writing/-/issues/453), we determined that the following plan would help us begin to consolidate release planning for the TW team. 
-
-**Why is release planning for the tech writing team important?** First, we are almost entirely reactive. Our workflow has writers constantly responding to developer reviews to update the docs. We don't have a consistent planning process across the team. That makes it hard for us to estimate our capacity. Second, we also have had a [long-standing focus on Improvement MRs](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#distribution-of-technical-writing-team-documentation-effort) (now called Maintenance.) How do we plan for OKRs, improvement projects, and backlog items if we don't understand what's coming for release docs? All of this contributes to the question: How do we know when we have the correct number of writers on the team? 
+**Why is release planning for the tech writing team important?** First, we are almost entirely reactive. Our workflow has writers constantly responding to developer reviews to update the docs. We don't have a consistent planning process across the team. That makes it hard for us to estimate our capacity. Second, we also have had a [long-standing focus on Improvement MRs](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#distribution-of-technical-writing-team-documentation-effort) (now called Maintenance.) How do we plan for OKRs, improvement projects, and backlog items if we don't understand what's coming for release docs? All of this contributes to the question: How do we know when we have the correct number of writers on the team?
 
 Beginning to understand what's coming in each release across stages will help us plan for more Improvement projects and OKRs, such as the [CTRT OKR](https://app.ally.io/objectives/1665339?time_period_id=135093) already scheduled. We know findability is a problem on the docs site, and that users struggle to figure out how to use GitLab. Moving from reactive to proactive working will benefit our users by allowing us to plan to focus on targeted improvements.
 
@@ -29,7 +27,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::manage"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::access" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::workspace" | `Link to board or filter` | `[ ]` Yes |
@@ -39,7 +37,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::plan"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::project management" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::product planning" | `Link to board or filter` | `[ ]` Yes |
@@ -47,7 +45,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::create"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::source code" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::code review" | `Link to board or filter` | `[ ]` Yes |
@@ -56,14 +54,14 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::ecosystem"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::integrations" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::foundations" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::verify"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::pipeline execution" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::pipeline authoring" | `Link to board or filter` | `[ ]` Yes |
@@ -72,25 +70,25 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::package"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::package" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::release"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::release" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::configure"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::configure" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::secure"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::static analysis" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::dynamic analysis" | `Link to board or filter` | `[ ]` Yes |
@@ -100,13 +98,13 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::protect"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::container security" | `Link to board or filter` | `[ ]` Yes |
 
 ### Stage ~"devops::growth"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::activation" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::conversion" | `Link to board or filter` | `[ ]` Yes |
@@ -116,7 +114,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::fulfillment"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"group::purchase" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::license" | `Link to board or filter` | `[ ]` Yes |
@@ -124,7 +122,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ### Stage ~"devops::enablement"
 
-| Group  | Link to board or filter | Reviewed with PM or EM | 
+| Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
 | ~"Distribution:Build" | `Link to board or filter` | `[ ]` Yes |
 | ~"Distribution:Deploy" | `Link to board or filter` | `[ ]` Yes |
@@ -134,3 +132,5 @@ The TW carries out the following planning activities for their assigned groups, 
 | ~"group::database" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::sharding" | `Link to board or filter` | `[ ]` Yes |
 
+/assign @gl-docsteam 
+/label ~"Technical Writing" ~"tw-plan" 
