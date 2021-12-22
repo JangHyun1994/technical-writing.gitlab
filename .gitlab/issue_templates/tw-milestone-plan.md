@@ -29,7 +29,7 @@ The TW carries out the following planning activities for their assigned groups, 
 
 | Group  | Link to board or filter | Reviewed with PM or EM |
 |--------------|-----------|--------------------------|
-| ~"group::access" | `Link to board or filter` | `[ ]` Yes |
+| ~"group::authentication and authorization" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::workspace" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::compliance" | `Link to board or filter` | `[ ]` Yes |
 | ~"group::import" | `Link to board or filter` | `[ ]` Yes |
