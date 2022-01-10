@@ -25,118 +25,92 @@ The TW carries out the following planning activities for their assigned groups, 
 
 ## Checklist and links
 
+After you've reviewed the plan with your PM or EM, select the checkbox for your group. If you can't meet with the PM or EM for some reason (perhaps they're on PTO), append that information to the end of the line and leave the checkbox cleared.
+
 ### Stage ~"devops::manage"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::authentication and authorization" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::workspace" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::compliance" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::import" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::optimize" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::authentication and authorization" - `Link to board or filter`
+- [ ] ~"group::workspace" - `Link to board or filter`
+- [ ] ~"group::compliance" - `Link to board or filter`
+- [ ] ~"group::import" - `Link to board or filter`
+- [ ] ~"group::optimize" - `Link to board or filter`
 
 ### Stage ~"devops::plan"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::project management" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::product planning" | `Link to board or filter` | `[ ]` Yes |
-| ~"group:certify" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::project management" - `Link to board or filter`
+- [ ] ~"group::product planning" - `Link to board or filter`
+- [ ] ~"group:certify" - `Link to board or filter`
 
 ### Stage ~"devops::create"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::source code" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::code review" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::editor" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::gitaly" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::source code" - `Link to board or filter`
+- [ ] ~"group::code review" - `Link to board or filter`
+- [ ] ~"group::editor" - `Link to board or filter`
+- [ ] ~"group::gitaly" - `Link to board or filter`
 
 ### Stage ~"devops::ecosystem"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::integrations" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::foundations" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::integrations" - `Link to board or filter`
+- [ ] ~"group::foundations" - `Link to board or filter`
 
 ### Stage ~"devops::verify"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::pipeline execution" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::pipeline authoring" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::runner" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::testing" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::pipeline execution" - `Link to board or filter`
+- [ ] ~"group::pipeline authoring" - `Link to board or filter`
+- [ ] ~"group::runner" - `Link to board or filter`
+- [ ] ~"group::testing" - `Link to board or filter`
 
 ### Stage ~"devops::package"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::package" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::package" - `Link to board or filter`
 
 ### Stage ~"devops::release"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::release" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::release" - `Link to board or filter`
 
 ### Stage ~"devops::configure"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::configure" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::configure" - `Link to board or filter`
 
 ### Stage ~"devops::monitor"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::respond" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::respond" - `Link to board or filter`
 
 ### Stage ~"devops::secure"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::static analysis" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::dynamic analysis" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::composition analysis" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::threat insights" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::vulnerability research" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::static analysis" - `Link to board or filter`
+- [ ] ~"group::dynamic analysis" - `Link to board or filter`
+- [ ] ~"group::composition analysis" - `Link to board or filter`
+- [ ] ~"group::threat insights" - `Link to board or filter`
+- [ ] ~"group::vulnerability research" - `Link to board or filter`
 
 ### Stage ~"devops::protect"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::container security" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::container security" - `Link to board or filter`
 
 ### Stage ~"devops::growth"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::activation" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::conversion" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::expansion" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::adoption" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::product intelligence" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::activation" - `Link to board or filter`
+- [ ] ~"group::conversion" - `Link to board or filter`
+- [ ] ~"group::expansion" - `Link to board or filter`
+- [ ] ~"group::adoption" - `Link to board or filter`
+- [ ] ~"group::product intelligence" - `Link to board or filter`
 
 ### Stage ~"devops::fulfillment"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"group::purchase" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::license" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::utilization" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"group::purchase" - `Link to board or filter`
+- [ ] ~"group::license" - `Link to board or filter`
+- [ ] ~"group::utilization" - `Link to board or filter`
 
 ### Stage ~"devops::enablement"
 
-| Group  | Link to board or filter | Reviewed with PM or EM |
-|--------------|-----------|--------------------------|
-| ~"Distribution:Build" | `Link to board or filter` | `[ ]` Yes |
-| ~"Distribution:Deploy" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::geo" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::memory" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::global search" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::database" | `Link to board or filter` | `[ ]` Yes |
-| ~"group::sharding" | `Link to board or filter` | `[ ]` Yes |
+- [ ] ~"Distribution:Build" - `Link to board or filter`
+- [ ] ~"Distribution:Deploy" - `Link to board or filter`
+- [ ] ~"group::geo" - `Link to board or filter`
+- [ ] ~"group::memory" - `Link to board or filter`
+- [ ] ~"group::global search" - `Link to board or filter`
+- [ ] ~"group::database" - `Link to board or filter`
+- [ ] ~"group::sharding" - `Link to board or filter`
 
 /assign @gl-docsteam 
 /label ~"Technical Writing" ~"tw-plan" 
