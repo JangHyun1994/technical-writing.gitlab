@@ -86,6 +86,12 @@ The TW carries out the following planning activities for their assigned groups, 
 |--------------|-----------|--------------------------|
 | ~"group::configure" | `Link to board or filter` | `[ ]` Yes |
 
+### Stage ~"devops::monitor"
+
+| Group  | Link to board or filter | Reviewed with PM or EM |
+|--------------|-----------|--------------------------|
+| ~"group::respond" | `Link to board or filter` | `[ ]` Yes |
+
 ### Stage ~"devops::secure"
 
 | Group  | Link to board or filter | Reviewed with PM or EM |
