@@ -29,7 +29,7 @@ The following tasks have tests that must be run locally on your workstation. To 
      and compress them:
 
      ```shell
-     bundle exec rake pngquant:compress
+     bin/pngquant compress
      ```
 
   1. If there are any results, create a new branch and then a merge request.
