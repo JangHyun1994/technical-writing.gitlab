@@ -16,6 +16,8 @@ The TW carries out the following planning activities for their assigned groups, 
 
 1. Have a conversation - synchronously or asynchronously - with either the group **PM** or **EM** to review planned ~"documentation" and ~"UI text" work for the upcoming milestone (`Milestone: Upcoming`) or (`Milestone: Started`). This is also an opportunity to talk to the PM or EM about any improvement or development opportunities they're aware of in their areas of the product documentation. This can be a regular group meeting or any other means of communication that you have established with your group.
 
+   If the TW, PM, or EM is unavailable around the beginning of the milestone, we encourage using async methods (like commenting in issues or Slack messages) or having conversations at an earlier time. If the conversation happens before the creation of the issue, just add the planning information to the issue when it's available.
+
 1. Identify a linked artifact that describes the upcoming planned work, such as:
    - An issue board for the group's documentation/UI text items for the milestone.
    - A filter that describes/lists the planned work. ([Example](https://gitlab.com/groups/gitlab-org/-/boards/3168664?scope=all&label_name[]=documentation&milestone_title=%23upcoming) for ~"devops::plan")
