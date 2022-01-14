@@ -105,15 +105,26 @@ task. To perform these tasks:
        and add the link under `exclude:`, following the pattern of the other links
        already there.
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
-     find all pages with lines that have trailing whitespace that isn't needed. To fix:
+     find all pages with lines that have trailing whitespace that isn't needed and fix them:
 
-     - In the root of the `gitlab` project, run (with `yarn` dependencies installed):
+     - If needed for the `gitlab` project, run (with `yarn` dependencies installed) in the root directory:
 
        ```shell
        yarn run markdownlint:no-trailing-spaces:fix doc
        ```
 
-     - In the other projects, fix manually.
+     - If needed for the `omnibus-gitlab` or `charts` projects, run (with `yarn` dependencies installed) in the root
+       directory:
+
+       ```shell
+       markdownlint --config doc/.markdownlint/markdownlint-no-trailing-spaces.yml doc --fix
+       ```
+
+     - If needed for the `gitlab-runner` project, run (with `yarn` dependencies installed) in the root directory:
+
+       ```shell
+       markdownlint --config docs/.markdownlint/markdownlint-no-trailing-spaces.yml docs --fix
+       ```
 
        NOTE:
        For MRs not in the `gitlab` project, prefix the branch name `docs-`. This ensures the pipeline
