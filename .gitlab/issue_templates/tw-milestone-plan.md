@@ -75,6 +75,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 ### Stage ~"devops::monitor"
 
 - [ ] ~"group::respond" - `Link to board or filter`
+- [ ] ~"group::observability" - `Link to board or filter`
 
 ### Stage ~"devops::secure"
 
