@@ -8,9 +8,30 @@ rubocop:
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 
-create_tw_planning_issue:
+stages:
+  - test
+  - automation
+
+.common:
+  stage: automation
   script:
     - gem install --no-doc gitlab
-    - ruby scripts/tw-milestone-plan.rb
+    - ruby scripts/create_issue_from_template.rb $ISSUE_TEMPLATE $ISSUE_TITLE
   rules:
-    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $ISSUE_TEMPLATE_SCHEDULE == $ISSUE_TEMPLATE
+
+rubocop:
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rubocop scripts/
+
+# -------------------------------------------------------------
+# Add a job to automatically create a new issue below this line
+# -------------------------------------------------------------
+
+create_tw_planning_issue:
+  variables:
+    ISSUE_TEMPLATE: "tw-milestone-plan.md"
+    ISSUE_TITLE: "Technical Writing milestone plan for <upcoming_milestone>"
+  extends: .common
