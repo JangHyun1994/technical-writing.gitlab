@@ -1,13 +1,15 @@
 This issue tracks actionable feedback from reader comments on docs.gitlab.com, that have been submitted by selecting the `Show and post comments` link in the Help & Feedback section.
 
-Disqus comment link: `add the link to the comment` Example: https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#comment-5697371976 
+## Disqus comment
+
+<!-- Add the link to the comment. Example: https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#comment-5697371976 -->
 
 ## Reader comment
 
-`Paste in the comment, or a summary of the comment` Example: https://gitlab.com/gitlab-org/gitlab/-/issues/350585
+<!-- Paste either the actual comment or a summary of the comment here. -->
 
 ## Deliverable
 
-Please either respond to the comment, or provide the information needed to respond to the commenter regarding this question. The response could include information, an MR that changes or fixes the documentation page.
+Either respond to the comment in Disqus, or provide the information needed to respond to the commenter regarding this question. The response could include information, an MR that changes or fixes the documentation page.
 
 /label ~docs-comments
