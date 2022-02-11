@@ -143,11 +143,12 @@ of the manager.
    - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
    - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
    - The [`gitlab-runner`](https://gitlab.com/gitlab-org/gitlab-runner) groups:
-     - [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
+     - [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc)
      - [`runner-maintainers`](https://gitlab.com/groups/gitlab-com/runner-maintainers/-/group_members?sort=access_level_desc)
    - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit)
    - [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs)
    - [`technical-writing`](https://gitlab.com/gitlab-org/technical-writing)
+   - [`gitlab_kramdown`](https://gitlab.com/gitlab-org/gitlab_kramdown) (Optional - Only one TW per region needs this access)
    
    Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new)
    and tag your manager. Going forward, if the manager approves the access request, you can
