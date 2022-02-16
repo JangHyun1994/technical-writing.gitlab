@@ -115,5 +115,10 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::database" - `Link to board or filter`
 - [ ] ~"group::sharding" - `Link to board or filter`
 
+## Other events and team efforts this milestone
+
+- `Link to events and team efforts (hackathons, team KRs).`
+- `Link to events and team efforts (hackathons, team KRs).`
+
 /assign @gl-docsteam 
 /label ~"Technical Writing" ~"tw-plan" 
