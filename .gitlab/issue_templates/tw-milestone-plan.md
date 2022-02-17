@@ -57,10 +57,10 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 ### Stage ~"devops::verify"
 
-- [ ] ~"group::pipeline execution" - `Link to board or filter`
 - [ ] ~"group::pipeline authoring" - `Link to board or filter`
+- [ ] ~"group::pipeline execution" - `Link to board or filter`
+- [ ] ~"group::pipeline insights" - `Link to board or filter`
 - [ ] ~"group::runner" - `Link to board or filter`
-- [ ] ~"group::testing" - `Link to board or filter`
 
 ### Stage ~"devops::package"
 
