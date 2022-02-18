@@ -1,8 +1,16 @@
-image: ruby:2.7.5-alpine3.15
+---
+image: ruby:3.0.3-alpine3.15
+
+rubocop:
+  script:
+    - bundle install
+    - bundle exec rubocop --parallel
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 
 create_tw_planning_issue:
   script:
     - gem install --no-doc gitlab
-    - ruby bin/tw-milestone-plan.rb
+    - ruby src/tw-milestone-plan.rb
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
