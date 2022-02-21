@@ -11,6 +11,6 @@ rubocop:
 create_tw_planning_issue:
   script:
     - gem install --no-doc gitlab
-    - ruby src/tw-milestone-plan.rb
+    - ruby scripts/tw-milestone-plan.rb
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
