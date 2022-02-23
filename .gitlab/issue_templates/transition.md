@@ -11,9 +11,10 @@
 - [ ] Invite the incoming TW to the stage and group Slack channels.
   - Channel list: _TBD_
 - [ ] Post in Slack about the changeover. Communicate the timeline and how MRs will be handled.
-- [ ] Reach out to the Product Manager and Engineering Manager to communicate the change.
-  - [ ] PM: _TBD_
-  - [ ] EM: _TBD_
+- [ ] Reach out to the Product Manager, Engineering Manager, and Design Manager to communicate the change.
+  - [ ] PM:  _TBD_
+  - [ ] EM:  _TBD_
+  - [ ] PDM: _TBD_
 
 Be sure to provide any additional useful information about working with the group, including
 how they prefer to communicate in issues/MRs regarding reviews.
