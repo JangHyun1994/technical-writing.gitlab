@@ -9,6 +9,7 @@ The manager for the person being onboarded must complete these tasks:
    (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
 1. [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members)
    on GitLab.com.
+1. [ ] Add the new team member as a Direct member of of the [`gitlab-ux` sub-group](https://gitlab.com/groups/gitlab-com/gitlab-ux/-/group_members?with_inherited_permissions=exclude).
 1. [ ] Add the new team member to the [`ux-retrospectives` project members](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members)   
 1. [ ] Determine and assign secondary group for shadowing.
 1. [ ] Determine and assign group for trainee (for example, to work towards
