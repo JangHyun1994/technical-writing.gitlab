@@ -26,8 +26,9 @@ def upcoming_milestone
   end
 end
 
-template = '.gitlab/issue_templates/tw-milestone-plan.md'
-description = File.read(template)
+template = File.read('.gitlab/issue_templates/tw-milestone-plan.md')
+assign_milestone = "/milestone %\"#{upcoming_milestone['title']}\""
+description = template + assign_milestone
 issue_title = "Technical Writing milestone plan for #{upcoming_milestone['title']}"
 
 # Take the project ID from the CI_PROJECT_ID predefined variable
