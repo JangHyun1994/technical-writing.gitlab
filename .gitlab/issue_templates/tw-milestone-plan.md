@@ -120,5 +120,5 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - `Link to events and team efforts (hackathons, team KRs).`
 - `Link to events and team efforts (hackathons, team KRs).`
 
-/assign @gl-docsteam 
+/assign @aqualls @rdickenson @axil @kpaizee @marcia @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @ngaskill @cnorris @dianalogan @claytoncornell
 /label ~"Technical Writing" ~"tw-plan" 
