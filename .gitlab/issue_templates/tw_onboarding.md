@@ -74,6 +74,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    [these questions](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/onboarding/tw_quiz.md). If you're unsure of
    something, ask your buddy or post in Slack. When you're ready, you can
    [check your answers](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/onboarding/answer_key.md).
+1. [ ] Submit a request for [Light Agent access to ZenDesk](https://about.gitlab.com/handbook/support/internal-support/#submitting-internal-license-request-extensions-and-viewing-support-tickets) so that you can view support tickets.
 
 In the following sections, link to the issues and MRs you're assigned to or
 that you create. Edit the issue and include those links as soon as they exist;
