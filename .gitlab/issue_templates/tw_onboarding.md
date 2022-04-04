@@ -54,7 +54,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    - [ ] Review these processes, noting the mentions of "documentation" and
      "technical writer"/"technical writing":
      - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/#tw-lead)
-     - [UX design](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#working-on-issues)
+     - [UX design](https://about.gitlab.com/handbook/engineering/ux/product-designer/#partnering-with-technical-writers)
      - [Product development](https://about.gitlab.com/handbook/product-development-flow/)
 
      For the Release Post items, reviews of each feature's details are reviewed by
