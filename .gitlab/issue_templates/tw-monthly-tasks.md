@@ -47,15 +47,16 @@ The following tasks have tests that must be run locally on your workstation. To 
      ```
 
      The task only removes the expired redirected files. There might be cases
-     where some docs checks fail, so you'll need to fix those yourself.
-     In [this example MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/68139):
-     - [`docs-lint links` failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/1501259729)
+     where some docs checks fail, so you'll need to fix those yourself. For example:
+     - In [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/68139), [`docs-lint links` failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/1501259729)
        because the deleted file was referenced somewhere else. You need to edit
-       the two files where the deleted doc was referenced and update them with the
+       the files where the deleted doc was referenced and update them with the
        new doc URL (its `redirect_to` value).
      - [`docs-lint markdown` failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/1501259728)
        because one or more `README.md` files were deleted. The number of `README.md` files must
        be [updated in `lint-docs.sh`](https://gitlab.com/gitlab-org/gitlab/-/blob/4280e2f335ca4d425d607826fffce080381abe4c/scripts/lint-doc.sh#L70).
+     - In [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/83832), the [`ui-docs-links-lint` job failed](https://gitlab.com/gitlab-org/gitlab/-/jobs/2263919454) because the deleted file was referenced in a help link in the UI.
+       Open an MR to update the UI link. When merged, rebase your redirects MR to pick up the fix.
   1. Add the `gitlab-docs` MR as a dependency to any MRs that delete the redirect files
      in the other projects. Assign all MRs to the same Technical Writer, and explain that the
      `gitlab-docs` MR should be merged first, followed by the MRs in the other projects.
@@ -73,7 +74,7 @@ task. To perform these tasks:
 1. Click the **Play** button for the `Run TW chores jobs` scheduled pipeline.
 1. Go to the [pipelines page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipelines)
    and find the pipeline you just triggered at the top. The pipeline has two stages.
-   
+
    The first stage runs the `compile_dev` job automatically:
 
    - [ ] **Review the Kramdown build logs for warnings.** Check the `compile_dev`
