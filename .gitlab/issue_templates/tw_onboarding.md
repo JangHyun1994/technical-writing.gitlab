@@ -153,7 +153,7 @@ of the manager.
    - [`technical-writing`](https://gitlab.com/gitlab-org/technical-writing)
    - [`gitlab_kramdown`](https://gitlab.com/gitlab-org/gitlab_kramdown) (Optional - Only one TW per region needs this access)
    
-   Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new)
+   Use the [Single person access request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new)
    and tag your manager. Going forward, if the manager approves the access request, you can
    merge content without a coach as the technical writer for the group.
    Otherwise, your developer permissions and coach's collaboration may continue
