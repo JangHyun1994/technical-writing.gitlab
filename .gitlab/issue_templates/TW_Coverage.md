@@ -1,6 +1,8 @@
 ## Intent
 
-This issue describes how broader group and team members are facilitating a members of the TW team to take meaningful time away from work. The intent is that the folks aren't required to "catch-up" before and after [taking a well-deserved vacation](https://about.gitlab.com/handbook/engineering/ux/how-we-work/#time-off).
+This issue describes how broader group and team members are facilitating members of the TW team to take meaningful time away from work.
+
+It allows you to name dynamic backups for specific groups, but you shouldn't expect them to pick up items that can wait, etc. You do that in PTO roots and slack messages as well to an extent, but they are lighter on context and are not as broadly visible.
 
 ## :handshake: Responsibilities
 
@@ -23,9 +25,10 @@ Include specific issue links for tasks to be completed by your backups.
 List the larger responsibilities that aren't moving forward until you return, such as re-organizing large pieces of documentation.
 
 - [ ] `Item` - `Link`
+
 ## :book: References
 
-Here are some references for how I and my group generally works:
+Here are some references for how my groups and I generally work together:
 
 - [Group Process Handbook Page](ADD LINK)
 - [Group UX Vision Handbook Page](ADD LINK)
@@ -54,3 +57,4 @@ Here are some references for how I and my group generally works:
 <!-- Do not remove the items below -->
 
 /label ~"TW Coverage"
+/assign me
