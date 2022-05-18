@@ -88,23 +88,29 @@ task. To perform these tasks:
      all 4 projects to see if any images are no longer in use. It takes 40+ minutes
      to run, so you may want to start this job first, then work on the other tasks
      while waiting.
-   - [ ] **Check for broken external links.** Run the `test_external_links` job,
-     and fix as many of the links as time permits. Be aware that:
-     - You have to evaluate suggestions for new links, as the forwarded link may also
-       be broken or may redirect again to another page.
-     - The forwarded link may include a trailing forward slash. While not required
-       for most browsers, the trailing slash can help prevent errors.
-     - The forwarded link may not include section title links (anchors), such as
-       `#section-title`. You may need to add the `#section-title` manually.
-     - Links may disappear, such as external software reaching end-of-life.
-     - Updated links may not provide the desired information. You may need to
-       create an issue and assign to an SME to resolve these links.
-     - If you find that a failing link is actually valid, it may need to be excluded
-       from the link checker. This could be due to a website that needs authentication,
-       or a site with a server that returns a response the link checker sees as a failure.
-       Go to <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/nanoc.yaml>
+   - [ ] **Check for broken external links.** Run the `test_external_links` job. The job
+     can produce a lot of output, so scan through the list and prioritize the fixes as follows:
+
+     - Links returning a `404` error. These links are likely broken
+       for customers, so they should be fixed first. If you can't find a replacement
+       link, lean toward removing the link and surrounding content.
+     - Redirects. At some stage, the redirects might be removed too, so it's better
+       to update them now. Fix as many as time allows. When evaluating redirects:
+       - Check the forwarded link, as it may also
+         be broken or may redirect again to another page.
+       - Check if the URL ends with a forward slash (`/`) and if so, include it in your fix.
+         While not required for most browsers, the slash can help prevent errors.
+       - Check for section title links (anchors), such as
+         `#section-title`. You may need to add the `#section-title` manually.
+       - Create an issue and assign it to an SME if the updated link does not provide
+         the desired information.
+     - False positives. This is where a failing link is actually valid, for example,
+       where a website needs authentication, or the site server returns a response
+       the link checker sees as a failure. To fix this, exclude it from
+       the link checker. Go to <https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/nanoc.yaml>
        and add the link under `exclude:`, following the pattern of the other links
-       already there.
+       already there. Fix as many as time allows.
+
    - [ ] **Check for trailing whitespace.** Run the `test_EOL_whitespace` job to
      find all pages with lines that have a trailing whitespace that isn't needed and fix them:
 
