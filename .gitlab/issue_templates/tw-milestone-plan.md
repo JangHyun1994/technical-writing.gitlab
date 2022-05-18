@@ -93,7 +93,6 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 ### Stage ~"devops::growth"
 
-- [ ] ~"group::activation" - `Link to board or filter`
 - [ ] ~"group::conversion" - `Link to board or filter`
 - [ ] ~"group::expansion" - `Link to board or filter`
 - [ ] ~"group::adoption" - `Link to board or filter`
@@ -121,4 +120,4 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - `Link to events and team efforts (hackathons, team KRs).`
 
 /assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell
-/label ~"Technical Writing" ~"tw-plan" 
+/label ~"Technical Writing" ~"tw-plan"
