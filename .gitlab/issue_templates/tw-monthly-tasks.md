@@ -98,8 +98,8 @@ task. To perform these tasks:
        to update them now. Fix as many as time allows. When evaluating redirects:
        - Check the forwarded link, as it may also
          be broken or may redirect again to another page.
-       - Check if the URL ends with a forward slash (`/`) and if so, include it in your fix.
-         While not required for most browsers, the slash can help prevent errors.
+       - Check if the URL has a forward slash (`/`) at the end when you visit it, and ensure your fix does the same.
+         Many redirect warnings are caused solely due to the presence or absence of the slash.
        - Check for section title links (anchors), such as
          `#section-title`. You may need to add the `#section-title` manually.
        - Create an issue and assign it to an SME if the updated link does not provide
