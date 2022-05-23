@@ -37,7 +37,8 @@ how they prefer to communicate in issues/MRs regarding reviews.
 - In the `www-gitlab-com` repository, update:
   - [ ] [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml), with your new assignment.
 - In the `gitlab` repository, update as needed:
-  - [ ] [`.gitlab/CODEOWNERS`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS)
+  - [ ] Group assignments in [`lib/tasks/gitlab/tw/codeowners.rake`](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/tasks/gitlab/tw/codeowners.rake)
+  - [ ] [`.gitlab/CODEOWNERS`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) (consider running the [`tw:codeowners` Rake task](https://docs.gitlab.com/ee/development/documentation/#batch-updates-for-tw-metadata) to ensure no pages are missed)
 - [ ] Read the product documentation associated with your group (as identified by the group attribute in documentation pages' metadata).
 
 ## Tasks for technical writing manager
