@@ -44,7 +44,7 @@ After the 22nd of each month:
   with the newly-outdated version.
 - [ ] Improve this checklist. Continue moving steps from
   [`releases.md`](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md)
-  to here until the issue template is the SSOT and the documentation provides extra information.
+  to here until the issue template is the single source of truth and the documentation provides extra information.
 
 ## Helpful links
 
