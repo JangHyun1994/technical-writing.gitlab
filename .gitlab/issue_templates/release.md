@@ -32,8 +32,8 @@ On the 22nd of each month, after the release post is live:
     You don't need to run any jobs manually for this second pipeline.
 - [ ] After the deployment completes, open `docs.gitlab.com` in a browser. Confirm
   both the latest version and the correct `pre-` version are listed in the documentation version dropdown.
-- [ ] *Major releases only.* Check all previous versions.
-- [ ] Crosslink to the merge request for the main release post.
+- [ ] *Major releases only.* Check all published versions of the docs to ensure they are visible.
+- [ ] Crosslink to the merge request for the main release post. ([Need help finding it?](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&state=opened&label_name%5B%5D=release%20post&label_name%5B%5D=blog%20post))
 - [ ] Create separate comments for the retrospective, and add items as they appear:
   - `## :+1: What went well this release?`
   - `## :-1: What didn’t go well this release?`
