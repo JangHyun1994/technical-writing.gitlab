@@ -34,9 +34,11 @@ On the 22nd of each month, after the release post is live:
   both the latest version and the correct `pre-` version are listed in the documentation version dropdown.
 - [ ] *Major releases only.* Check all previous versions.
 - [ ] Crosslink to the merge request for the main release post.
-- [ ] Create separate comments for the retrospective: `## :+1: What went well this release?`,
-  `## :-1: What didn’t go well this release?`, `## :chart_with_upwards_trend: What can we improve
-  going forward?` and add items as they appear.
+- [ ] Create separate comments for the retrospective, and add items as they appear:
+  - `## :+1: What went well this release?`
+  - `## :-1: What didn’t go well this release?`
+  - `## :chart_with_upwards_trend: What can we improve going forward?`
+- [ ] Mention `@gl-docsteam` and invite them to read/participate in the retro threads
 
 After the 22nd of each month:
 
