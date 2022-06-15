@@ -104,7 +104,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::license" - `Link to board or filter`
 - [ ] ~"group::utilization" - `Link to board or filter`
 
-### Stage ~"devops::enablement"
+### Stage ~"devops::systems"
 
 - [ ] ~"Distribution:Build" - `Link to board or filter`
 - [ ] ~"Distribution:Deploy" - `Link to board or filter`
