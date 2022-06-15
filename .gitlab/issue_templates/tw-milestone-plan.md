@@ -91,24 +91,30 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 - [ ] ~"group::container security" - `Link to board or filter`
 
+### Stage analytics
+
+- [ ] ~"group::product intelligence" - `Link to board or filter`
+
 ### Stage ~"devops::growth"
 
-- [ ] ~"group::conversion" - `Link to board or filter`
 - [ ] ~"group::expansion" - `Link to board or filter`
 - [ ] ~"group::adoption" - `Link to board or filter`
-- [ ] ~"group::product intelligence" - `Link to board or filter`
 
 ### Stage ~"devops::fulfillment"
 
 - [ ] ~"group::purchase" - `Link to board or filter`
-- [ ] ~"group::license" - `Link to board or filter`
+- [ ] ~"group::provision" - `Link to board or filter`
 - [ ] ~"group::utilization" - `Link to board or filter`
+- [ ] ~"group::fulfillment platform" - `Link to board or filter`
 
 ### Stage ~"devops::systems"
 
 - [ ] ~"Distribution:Build" - `Link to board or filter`
 - [ ] ~"Distribution:Deploy" - `Link to board or filter`
 - [ ] ~"group::geo" - `Link to board or filter`
+
+### Stage ~devops::data_stores
+
 - [ ] ~"group::memory" - `Link to board or filter`
 - [ ] ~"group::global search" - `Link to board or filter`
 - [ ] ~"group::database" - `Link to board or filter`
