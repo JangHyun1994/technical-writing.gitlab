@@ -97,8 +97,8 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 ### Stage ~"devops::growth"
 
-- [ ] ~"group::expansion" - `Link to board or filter`
-- [ ] ~"group::adoption" - `Link to board or filter`
+- [ ] ~"group::acquisition" - `Link to board or filter`
+- [ ] ~"group::activation" - `Link to board or filter`
 
 ### Stage ~"devops::fulfillment"
 
