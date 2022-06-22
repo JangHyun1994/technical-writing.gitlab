@@ -67,8 +67,10 @@ The following tasks have tests that must be run locally on your workstation. To 
 ## Remote tasks
 
 The following tasks have tests that you can run from pipelines in the `gitlab-docs` project.
-Some of the tests may not return any results, and no further work is required for that
-task. To perform these tasks:
+Some of the tests may not report any issues, and no further work is required for that
+task. For tasks that do report problems, open MRs to fix the listed issues.
+
+To perform these tasks:
 
 1. Go to the [pipeline schedules page](https://gitlab.com/gitlab-org/gitlab-docs/-/pipeline_schedules).
 1. Click the **Play** button for the `Run TW chores jobs` scheduled pipeline.
@@ -82,12 +84,15 @@ task. To perform these tasks:
      by malformed Markdown). If the warning is reported for line 1 in a file, it's
      likely the problem is in a Markdown table, which could be anywhere in the file.
 
-   The second stage has three manual jobs. Click **Play** on the jobs you want to run:
+   The second stage has four manual jobs. Click **Play** on the jobs you want to run:
 
    - [ ] **Check for unlinked images.** Run the `test_unlinked_images` job, which checks
      all 4 projects to see if any images are no longer in use. It takes 40+ minutes
      to run, so you may want to start this job first, then work on the other tasks
      while waiting.
+   - [ ] **Delete old environments.** Run the `delete_stopped_environments` job.
+     This job deletes old review app environments in the `gitlab-docs` project.
+     No other action is required after the job runs.
    - [ ] **Check for broken external links.** Run the `test_external_links` job. The job
      can produce a lot of output, so scan through the list and prioritize the fixes as follows:
 
