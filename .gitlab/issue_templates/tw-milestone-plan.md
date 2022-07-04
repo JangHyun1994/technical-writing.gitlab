@@ -6,9 +6,9 @@ Beginning to understand what's coming in each release across stages will help us
 
 This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone. In addition to the work with their assigned groups, the [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/) also works on [OKRs](https://about.gitlab.com/handbook/engineering/ux/#okrs) and other tasks that are not reflected in this issue.
 
-**By the `15th` of each month:**
+**On the `15th` of each month:**
 
-One of the TW Managers creates the issue for the upcoming milestone.
+The [TW Bot](https://gitlab.com/project_10614162_bot) creates the issue for the upcoming milestone.
 
 **By the `29th` of each month:**
 
