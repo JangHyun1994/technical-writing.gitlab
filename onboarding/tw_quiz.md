@@ -6,9 +6,9 @@ These questions are meant to help you get familiar with a variety of documentati
 
 1. What is Pajamas and who uses it?
 
-1. What are three things the Dangerbot tests for?
+1. What are some things Dangerbot tests for? (Give three examples.)
 
-1. If you update currently-published content, how often/when is it published to the web?
+1. If you update currently published content, how often/when is it published to the web?
 
 1. Which GitLab project has instructions for how to run a local build of the docs?
 
@@ -22,7 +22,7 @@ These questions are meant to help you get familiar with a variety of documentati
 
 1. How do you differentiate between features that exist only in certain [tiers](https://about.gitlab.com/handbook/marketing/product-marketing/tiers/)?
 
-1. Where can you find which stage/group labels to add to an issue/MR, and which technical writer to assign?
+1. Where can you find which stage/group labels to add to an issue/MR and which technical writer to assign?
 
 1. Which labels must be added to MRs that have changes to the documentation?
 
