@@ -4,15 +4,15 @@
 
    The GitLab UI design system for GitLab. It's available at [https://design.gitlab.com/](https://design.gitlab.com/).
 
-1. What are three things the Dangerbot tests for?
+1. What are some things Dangerbot tests for? (Give three examples.)
 
    Dangerbot produces warnings and errors when your commit messages don't meet [GitLab commit message guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines).
 
-1. If you update currently-published content, how often/when is it published to the web?
+1. If you update currently published content, how often/when is it published to the web?
 
    After your merge request pipelines succeed, it can take up to four hours.
 
-   This is explained in the [GitLab /help](https://docs.gitlab.com/ee/development/documentation/#gitlab-help) documentation.
+   This is explained in the [GitLab `/help`](https://docs.gitlab.com/ee/development/documentation/#gitlab-help) documentation.
 
 1. Which GitLab project has instructions for how to run a local build of the docs?
 
@@ -20,7 +20,7 @@
 
 1. How does GitLab handle redirects? (Where is it documented?)
 
-   Read more about [changing document location](https://docs.gitlab.com/ce/development/documentation/index.html#changing-document-location).
+   Read more about [redirects in GitLab documentation](https://docs.gitlab.com/ee/development/documentation/redirects.html).
 
 1. Which GitLab project has the handbook?
 
@@ -30,7 +30,7 @@
 
    Yes, though there are some cases where you shouldn't.
 
-   In the style guide, read more about [language](https://docs.gitlab.com/ee/development/documentation/styleguide.html#language).
+   In the style guide, read more about [contractions](https://docs.gitlab.com/ee/development/documentation/styleguide/#contractions).
 
 1. How do you add a new topic to the global nav bar (on the left)?
 
@@ -38,13 +38,13 @@
 
 1. How do you differentiate between features that exist only in certain [tiers](https://about.gitlab.com/handbook/marketing/product-marketing/tiers/)?
 
-   In the documentation, [badges](https://docs.gitlab.com/ee/development/documentation/styleguide.html#product-badges) are added to features specific to a tier.
+   In the documentation, [badges](https://docs.gitlab.com/ee/development/documentation/styleguide/#product-tier-badges) are added to features specific to a tier.
 
    Badges may be listed next to a title (for example, `# Epic Issues API **(ULTIMATE)**`) or inline with content.
 
-1. Where can you find which stage/group labels to add to an issue/MR, and which technical writer to assign?
+1. Where can you find which stage/group labels to add to an issue/MR and which technical writer to assign?
 
-   For details on who owns what, see [Product stages, groups, and categories](https://about.gitlab.com/handbook/product/categories/).
+   For details on who owns what, see [Product sections, stages, groups, and categories](https://about.gitlab.com/handbook/product/categories/).
 
    For a list of technical writers and their area of responsibility, see [Assignments](https://about.gitlab.com/handbook/engineering/technical-writing/#assignments).
 
@@ -56,10 +56,10 @@
 
    If the link is in the same project, use a relative link. If it's in the `runner`, `omnibus`, or `chart` projects, use a direct link.
 
-   Learn more about [GitLab preferences for links](https://docs.gitlab.com/ee/development/documentation/styleguide.html#links).
+   Learn more about [GitLab preferences for links](https://docs.gitlab.com/ee/development/documentation/styleguide/#links).
 
    Learn more about [the Markdown used for links](https://docs.gitlab.com/ee/user/markdown.html#links).
 
 1. When you add suggestions to an MR (by adding a comment and then clicking the **Insert suggestion** button), how do you make suggestions to multiple lines?
 
-   [This content about multi-line suggestions](https://docs.gitlab.com/ee/user/discussions/#multi-line-suggestions) should help you understand.
+   [This content about multi-line suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions.html#multi-line-suggestions) should help you understand.
