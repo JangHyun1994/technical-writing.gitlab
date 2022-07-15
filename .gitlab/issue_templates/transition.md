@@ -43,6 +43,6 @@ how they prefer to communicate in issues/MRs regarding reviews.
 
 ## Tasks for technical writing manager
 
-- [ ] Update [BambooHR](https://about.gitlab.com/company/team/structure/#setting-product-group-for-team-members) with the new group assignments. BambooHR automatically updates the group assignments in `data/team_members/person`.
+- [ ] Update [Workday](https://about.gitlab.com/handbook/people-group/workday/workday-guide/) with the new group assignments. Workday updates the group assignments in `data/team_members/person`. Interim instructions during Workday rollout: Manager emails `people-connect@gitlab.com` with details of changes. 
 
 /label ~"Technical Writing"
