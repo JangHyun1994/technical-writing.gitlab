@@ -29,11 +29,11 @@ how they prefer to communicate in issues/MRs regarding reviews.
 
 ## Tasks for incoming technical writer
 
-- [ ] Set up coffee chats with:
-  - [ ] Group Product Manager
-  - [ ] Group Engineering Manager
-  - [ ] Some [group frontend and backend team members](https://about.gitlab.com/handbook/product/categories/)
-  - [ ] UX designer associated with the group
+- [ ] Set up coffee chats with the group's:
+  - [ ] Product manager
+  - [ ] Engineering manager
+  - [ ] [Frontend and backend team members](https://about.gitlab.com/handbook/product/categories/) (not necessary to meet all)
+  - [ ] UX designer
 - In the `www-gitlab-com` repository, update:
   - [ ] [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml), with your new assignment.
 - In the `gitlab` repository, update as needed:
