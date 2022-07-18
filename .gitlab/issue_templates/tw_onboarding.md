@@ -4,11 +4,10 @@
 
 The manager for the person being onboarded must complete these tasks:
 
-1. [ ] Request that new team member be added to `docs@gitlab.com` and
-   `ux-department@gitlab.com` email groups, and `@docsteam` user group in Slack
-   (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
-1. [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members)
-   on GitLab.com.
+1. [ ] On the second day, a [role based entitlement Access Request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/#role-entitlements-for-a-specific-job) will be created automatically for the new team member and you'll be tagged in it. In the issue, make sure the team member is added to:
+   - `docs@gitlab.com` and `ux-department@gitlab.com`.
+   - `@docsteam` user group in Slack (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
+   - [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 1. [ ] Add the new team member as a Direct member of of the [`gitlab-ux` sub-group](https://gitlab.com/groups/gitlab-com/gitlab-ux/-/group_members?with_inherited_permissions=exclude).
 1. [ ] Add the new team member to the [`ux-retrospectives` project members](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members)   
 1. [ ] Determine and assign secondary group for shadowing.
@@ -75,6 +74,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    something, ask your buddy or post in Slack. When you're ready, you can
    [check your answers](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/onboarding/answer_key.md).
 1. [ ] Submit a request for [Light Agent access to ZenDesk](https://about.gitlab.com/handbook/support/internal-support/#submitting-internal-license-request-extensions-and-viewing-support-tickets) so that you can view support tickets.
+1. [ ] Make sure your work email in Workday and the [email you use for notifications in your GitLab profile](https://gitlab.com/-/profile/notifications) are the same. Our performance indicators rely on this information.
 
 In the following sections, link to the issues and MRs you're assigned to or
 that you create. Edit the issue and include those links as soon as they exist;
