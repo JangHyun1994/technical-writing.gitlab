@@ -21,12 +21,6 @@ To complement your general GitLab and manager onboarding issues, completing the 
 - [ ] Say "hi" to the rest of the Technical Writing team in the #tw-team channel in Slack. Tell us a bit more about yourself by using the [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit), and then during the first team meeting you're able to attend.
 - [ ] Read the [Technical Writing Handbook](https://about.gitlab.com/handbook/product/technical-writing/).
 - [ ] The Technical Writing team uses the Geekbot app in Slack to run asynchronous standups, which include the 'Morning Stretch' and 'Wednesday Weekly' questions. Ask your onboarding buddy who can add you to the application.
-- [ ] Submit an access request to become a maintainer for these projects:
-   - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
-   - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
-   - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
-   - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
-   - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit) Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new) and tag your manager.
 - [ ] Review the _GitLab Technical Writing Fundamentals_ course materials. Ask your manager for access to the slides.
 - [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console. Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
 
@@ -37,6 +31,17 @@ To complement your general GitLab and manager onboarding issues, completing the 
   1. Submit the MR to your manager for approval and merge.
 
 - [ ] Schedule time with one of the Technical Writers you manage (separate from any introductory or 1:1 meetings) to walk you through the Technical Writing workflow.
+
+### Permissions and access requests
+
+- [ ] Submit an [access request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to become a maintainer for these projects:
+   - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
+   - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
+   - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
+   - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
+   - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit) Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new) and tag your manager.
+- [ ] Submit an access request to get editor permission for the Sisense dashboards.
+- [ ] Submit an access request to get access to Google Analytics.
 
 ### Reference information
 
@@ -66,7 +71,10 @@ The following reference links and items of information may be helpful in your ro
 
 The manager for the team member being onboarded must complete these tasks:
 
-- [ ] Request that new team member be added to `docs@gitlab.com` and `ux-department@gitlab.com` email groups, and `@docsteam` user group in Slack.
+- [ ] On the second day, a [role-based entitlement access request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/#role-entitlements-for-a-specific-job) will be created automatically for the new team member and you'll be tagged in it. In the issue, make sure the team member is added to:
+  - `docs@gitlab.com` and `ux-department@gitlab.com`.
+  - `@docsteam` user group in Slack (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
+  - [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 - [ ] Ensure the new team member is added to the following Slack channels:
    - `#docs`
    - `#docs-comments`
@@ -75,7 +83,9 @@ The manager for the team member being onboarded must complete these tasks:
    - `#tw-team`
    - `#tw-social`
    - `#tw_leadership`
-- [ ] Add the new team member to the [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
+- [ ] Add the new team member to:
+  - The [`ux-retrospectives` project](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members) (Maintainer)
+  - The [`gitlab-ux` sub-group](https://gitlab.com/groups/gitlab-com/gitlab-ux/-/group_members?with_inherited_permissions=exclude) (Owner)
 
 /label ~"onboarding" ~"Technical Writing"
 
