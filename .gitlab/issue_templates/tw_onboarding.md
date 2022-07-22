@@ -83,8 +83,8 @@ don't wait for the end of the milestone.
 #### First release - Shadow stage groups
 
 1. [ ] For the first release cycle beginning after your start date (the first
-   18th), shadow your buddy's work in [their most active Stage Group], plus one
-   other stage group/writer, decided with your manager and the team. During
+   18th), shadow your buddy's work in [their most active Stage Group], plus two
+   other stage group/writers, decided with your manager and the team. During
    shadowing, the established technical writers proactively share relevant issues,
    merge requests, and communications with you by creating/using a
    #tw-onboarding-<groupname> channel, and answer questions you have that arise
@@ -95,6 +95,7 @@ don't wait for the end of the milestone.
 
    - [ ] List group 1 here:
    - [ ] List group 2 here:
+   - [ ] List group 3 here:
 
 1. [ ] Link to any issues you are assigned here:
 1. [ ] Link to any merge requests you are assigned here:
@@ -103,11 +104,11 @@ don't wait for the end of the milestone.
 
 1. [ ] For the second release cycle that begins after your start date (the
    second 18th), unless your manager extends the shadowing phase, act as a
-   trainee for a single group (as assigned by your manager). The intent is to
-   take on the group as its technical writer for the next release. List the
-   group name here:
-   The technical writer assigned to that group assigns substantial parts of the
-   work to you for this group (roughly half of the groups's reviews of MRs with
+   trainee for two to three groups (as assigned by your manager). The intent is to
+   take on the groups as their technical writer for the next release. List the
+   group names here:
+   The technical writers assigned to those groups assign substantial parts of the
+   work to you for these groups (roughly half of each groups's reviews of MRs with
    documentation, UI text, and release post content; a small but substantial
    documentation authoring project; a few minor documentation improvement
    projects/fixes).
@@ -137,8 +138,8 @@ of the manager.
 #### Third release - Assigned with developer permissions and coach
 
 1. [ ] For the third release cycle, you assume the full role of technical
-   writer for the group, except that the former technical writer assigned to
-   the group is now the coach, who will review all your work (including reviews
+   writer for the groups, except that the former technical writers assigned to
+   the groups are now the coaches, who will review all your work (including reviews
    you perform of other authors) before it is merged. They may share the burden
    of these reviews with other technical writers.
 1. [ ] Submit an access request to become a maintainer for these projects:
