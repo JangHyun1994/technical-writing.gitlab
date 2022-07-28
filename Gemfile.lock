@@ -1,29 +1,29 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.2.2)
+    activesupport (7.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     ast (2.4.2)
-    concurrent-ruby (1.1.9)
-    gitlab-styles (6.6.0)
+    concurrent-ruby (1.1.10)
+    gitlab-styles (7.1.0)
       rubocop (~> 0.91, >= 0.91.1)
       rubocop-gitlab-security (~> 0.1.1)
       rubocop-graphql (~> 0.10)
       rubocop-performance (~> 1.9.2)
       rubocop-rails (~> 2.9)
       rubocop-rspec (~> 1.44)
-    i18n (1.10.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    minitest (5.15.0)
-    parallel (1.21.0)
-    parser (3.1.0.0)
+    minitest (5.16.2)
+    parallel (1.22.1)
+    parser (3.1.2.0)
       ast (~> 2.4.1)
-    rack (2.2.3)
+    rack (2.2.4)
     rainbow (3.1.1)
-    regexp_parser (2.2.1)
+    regexp_parser (2.5.0)
     rexml (3.2.5)
     rubocop (0.93.1)
       parallel (~> 1.10)
@@ -34,11 +34,11 @@ GEM
       rubocop-ast (>= 0.6.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (1.15.2)
-      parser (>= 3.0.1.1)
+    rubocop-ast (1.19.1)
+      parser (>= 3.1.1.0)
     rubocop-gitlab-security (0.1.1)
       rubocop (>= 0.51)
-    rubocop-graphql (0.13.0)
+    rubocop-graphql (0.14.4)
       rubocop (>= 0.87, < 2)
     rubocop-performance (1.9.2)
       rubocop (>= 0.90.0, < 2.0)
@@ -51,7 +51,7 @@ GEM
       rubocop (~> 0.87)
       rubocop-ast (>= 0.7.1)
     ruby-progressbar (1.11.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
 
@@ -59,7 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  gitlab-styles (~> 6.6)
+  gitlab-styles (~> 7.1.0)
 
 BUNDLED WITH
-   2.2.32
+   2.3.19
