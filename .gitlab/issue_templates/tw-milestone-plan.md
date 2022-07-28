@@ -48,7 +48,6 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::source code" - [board](https://gitlab.com/groups/gitlab-org/-/boards/1626594?label_name%5B%5D=group%3A%3Asource%20code&label_name[]=Technical%20Writing), `planning issue`
 - [ ] ~"group::code review" - [board](https://gitlab.com/groups/gitlab-org/-/boards/2159734?label_name%5B%5D=group%3A%3Acode%20review&label_name[]=Technical%20Writing), `planning issue`
 - [ ] ~"group::editor" - [board](https://gitlab.com/groups/gitlab-org/-/boards/1131977?label_name%5B%5D=group%3A%3Aeditor&label_name[]=Technical%20Writing), `planning issue`
-- [ ] ~"group::gitaly" - `Link to board or filter`
 
 ### Stage ~"devops::ecosystem"
 
@@ -112,6 +111,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"Distribution:Build" - `Link to board or filter`
 - [ ] ~"Distribution:Deploy" - `Link to board or filter`
 - [ ] ~"group::geo" - `Link to board or filter`
+- [ ] ~"group::gitaly" - `Link to board or filter`
 
 ### Stage ~devops::data_stores
 
@@ -120,7 +120,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::database" - [board](https://gitlab.com/groups/gitlab-org/-/boards/1324138?label_name%5B%5D=database%3A%3Aactive&label_name%5B%5D=group%3A%3Adatabase&label_name[]=Technical%20Writing), `planning issue`
 - [ ] ~"group::sharding" - `Link to board or filter`
 
-### Stage ~"devops::anti-abuse" 
+### Stage ~"devops::anti-abuse"
 
 - [ ] ~"group::anti-abuse" - `Link to board or filter`
 
