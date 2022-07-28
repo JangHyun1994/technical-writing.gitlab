@@ -35,11 +35,11 @@ To complement your general GitLab and manager onboarding issues, completing the 
 ### Permissions and access requests
 
 - [ ] Submit an [access request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to become a maintainer for these projects:
-   - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
-   - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
-   - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
-   - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
-   - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit) Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new) and tag your manager.
+  - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
+  - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
+  - [`charts/gitlab`](https://gitlab.com/gitlab-org/charts/gitlab)
+  - The `gitlab-runner` group [`runner-docs-maintainers`](https://gitlab.com/groups/gitlab-com/runner-docs-maintainers/-/group_members?sort=access_level_desc).
+  - [`gitlab-development-kit`](https://gitlab.com/gitlab-org/gitlab-development-kit) Use the [Single person access request template](https://gitlab.com/gitlab-com/access-requests/issues/new) and tag your manager.
 - [ ] Submit an access request to get editor permission for the Sisense dashboards.
 - [ ] Submit an access request to get access to Google Analytics.
 
@@ -76,13 +76,13 @@ The manager for the team member being onboarded must complete these tasks:
   - `@docsteam` user group in Slack (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
   - [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 - [ ] Ensure the new team member is added to the following Slack channels:
-   - `#docs`
-   - `#docs-comments`
-   - `#docs-processes`
-   - `#docs-tooling`
-   - `#tw-team`
-   - `#tw-social`
-   - `#tw_leadership`
+  - `#docs`
+  - `#docs-comments`
+  - `#docs-processes`
+  - `#docs-tooling`
+  - `#tw-team`
+  - `#tw-social`
+  - `#tw_leadership`
 - [ ] Add the new team member to:
   - The [`ux-retrospectives` project](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members) (Maintainer)
   - The [`gitlab-ux` sub-group](https://gitlab.com/groups/gitlab-com/gitlab-ux/-/group_members?with_inherited_permissions=exclude) (Owner)

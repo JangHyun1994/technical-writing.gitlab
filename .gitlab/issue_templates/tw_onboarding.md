@@ -9,7 +9,7 @@ The manager for the person being onboarded must complete these tasks:
    - `@docsteam` user group in Slack (they'll be added to `#docs`, `#docs-team`, and `#docs-comments`).
    - [`gl-docsteam` group](https://gitlab.com/groups/gl-docsteam/-/group_members) on GitLab.com.
 1. [ ] Add the new team member as a Direct member of of the [`gitlab-ux` sub-group](https://gitlab.com/groups/gitlab-com/gitlab-ux/-/group_members?with_inherited_permissions=exclude).
-1. [ ] Add the new team member to the [`ux-retrospectives` project members](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members)   
+1. [ ] Add the new team member to the [`ux-retrospectives` project members](https://gitlab.com/gl-retrospectives/ux-retrospectives/-/project_members)
 1. [ ] Determine and assign secondary group for shadowing.
 1. [ ] Determine and assign group for trainee (for example, to work towards
    being assigned as its technical writer).
@@ -88,7 +88,7 @@ don't wait for the end of the milestone.
    other stage group/writers, decided with your manager and the team. During
    shadowing, the established technical writers proactively share relevant issues,
    merge requests, and communications with you by creating/using a
-   #tw-onboarding-<groupname> channel, and answer questions you have that arise
+   `#tw-onboarding-<groupname>` channel, and answer questions you have that arise
    in this context.
 1. [ ] Read about all stages and groups, and discuss with your manager whether
    there's a particular group that will need your coverage as technical writer,
@@ -154,7 +154,7 @@ of the manager.
    - [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs)
    - [`technical-writing`](https://gitlab.com/gitlab-org/technical-writing)
    - [`gitlab_kramdown`](https://gitlab.com/gitlab-org/gitlab_kramdown) (Optional - Only one TW per region needs this access)
-   
+
    Use the [Single person access request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new)
    and tag your manager. Going forward, if the manager approves the access request, you can
    merge content without a coach as the technical writer for the group.
@@ -163,8 +163,8 @@ of the manager.
 1. [ ] When you have maintainer access to the previously listed projects, submit an MR to update your [team
 member](https://about.gitlab.com/company/team/)
  file with your project permissions. This change will have an effect:
-   - On projects here: https://about.gitlab.com/handbook/engineering/projects/.
-   - On the GitLab Review Workload Dashboard page here: https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&hourFormat24=true&visible=maintainer%7Cdocs.
+   - On projects here: <https://about.gitlab.com/handbook/engineering/projects/>.
+   - On the GitLab Review Workload Dashboard page here: <https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&hourFormat24=true&visible=maintainer%7Cdocs>.
 1. [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console.
    Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
 
