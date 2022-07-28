@@ -1,10 +1,10 @@
 <!-- The issue name should be in the form: Transition [stage]/[group] TW assignment to [new writer] -->
 <!-- Create separate issues for each group being transitioned to a different technical writer. -->
 
-- Stage/group being transitioned: 
-- Current technical writer: 
-- Incoming technical writer: 
-- Reassignment milestone: 
+- Stage/group being transitioned:
+- Current technical writer:
+- Incoming technical writer:
+- Reassignment milestone:
 
 ## Tasks for current technical writer
 
@@ -43,6 +43,6 @@ how they prefer to communicate in issues/MRs regarding reviews.
 
 ## Tasks for technical writing manager
 
-- [ ] Update [Workday](https://about.gitlab.com/handbook/people-group/workday/workday-guide/) with the new group assignments. Workday updates the group assignments in `data/team_members/person`. Interim instructions during Workday rollout: Manager emails `people-connect@gitlab.com` with details of changes. 
+- [ ] Update [Workday](https://about.gitlab.com/handbook/people-group/workday/workday-guide/) with the new group assignments. Workday updates the group assignments in `data/team_members/person`. Interim instructions during Workday rollout: Manager emails `people-connect@gitlab.com` with details of changes.
 
 /label ~"Technical Writing"

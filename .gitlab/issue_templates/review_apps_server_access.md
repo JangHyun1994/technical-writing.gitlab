@@ -8,7 +8,8 @@ GitLab Docs [review apps](https://docs.gitlab.com/ee/development/documentation/r
   - Or you can [create one](https://docs.gitlab.com/ee/ssh/index.html#generate-an-ssh-key-pair) from scratch.
 - [ ] Co-assign an existing member to this issue. You can ask in `#tw-team` if you need to find a reviewer.
 - [ ] Edit `~/.ssh/config` and add the following (the `deploy` user should be left as is):
-  ```
+
+  ```plaintext
   Host docs-review
     HostName axil-review-app.gitlap.com
     User deploy
@@ -17,6 +18,7 @@ GitLab Docs [review apps](https://docs.gitlab.com/ee/development/documentation/r
   ```
 
   After your key is added, you can SSH into the server with:
+
   ```shell
   ssh docs-review
   ```

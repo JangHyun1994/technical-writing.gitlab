@@ -11,15 +11,15 @@ Update this section of the UI to meet the [Pajamas](https://design.gitlab.com/) 
 
 At a minimum, address these issues:
 
-- [ ] Present tense rather than future. https://design.gitlab.com/content/voice-tone#instructions
-- [ ] Active voice. https://design.gitlab.com/content/voice-tone#active-voice
-- [ ] No periods for settings or headings. https://design.gitlab.com/content/punctuation#periods
+- [ ] Present tense rather than future. <https://design.gitlab.com/content/voice-tone#instructions>
+- [ ] Active voice. <https://design.gitlab.com/content/voice-tone#active-voice>
+- [ ] No periods for settings or headings. <https://design.gitlab.com/content/punctuation#periods>
 - [ ] Periods for all help text.
 - [ ] No repetitive or unnecessary text. (Things like: This setting is... or "Use this setting to.")
 - [ ] Oxford comma used correctly. (This, this, and this.)
-- [ ] Language is parallel. (Review all the settings in the section to ensure they are similarly-worded.) https://design.gitlab.com/content/voice-tone#parallelism
-- [ ] If a setting is optional, then "optional" is in parentheses at the end of the setting name. https://design.gitlab.com/components/form/#required-information
-- [ ] Latinisms (i.e., e.g.) removed. https://design.gitlab.com/content/voice-tone#avoid-latin-abbreviations
+- [ ] Language is parallel. (Review all the settings in the section to ensure they are similarly-worded.) <https://design.gitlab.com/content/voice-tone#parallelism>
+- [ ] If a setting is optional, then "optional" is in parentheses at the end of the setting name. <https://design.gitlab.com/components/form/#required-information>
+- [ ] Latinisms (i.e., e.g.) removed. <https://design.gitlab.com/content/voice-tone#avoid-latin-abbreviations>
 - [ ] Don't use "allow" unless you're specifically talking about security. For example, "Allows users to fork the repo" should be "Users can fork the repo."
 - [ ] Do a final review of everything you've updated and consider whether it affects the docs. If it does, open a follow-up issue or an MR to update the docs.
 
@@ -48,6 +48,6 @@ After you've reviewed the text, you'll need to implement any changes or improvem
 1. Open an MR that's linked to this issue, and then assign it to another writer for review/approval.
 1. Assign to the roulette-recommended engineer for merge.
 
-Associated with https://gitlab.com/gitlab-org/technical-writing/-/issues/278
+Associated with <https://gitlab.com/gitlab-org/technical-writing/-/issues/278>
 
 /label ~"Technical Writing" ~OKR ~"UI text"
