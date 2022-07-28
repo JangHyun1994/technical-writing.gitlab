@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "gitlab-styles", "~> 6.6", require: false
+gem "gitlab-styles", "~> 7.1.0", require: false
