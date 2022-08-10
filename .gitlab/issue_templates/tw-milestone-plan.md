@@ -126,6 +126,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 ## Other events and team efforts this milestone
 
+- [ ] Managers (@kpaizee, @dianalogan) check the [Developer Evangelism calendar](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/#-team-calendar) for Hackathons and other events that may impact team velocity this milestone. List the events and dates, and let the team know in the `tw-team` Slack channel, and as a read-only in the TW Team meeting.
 - `Link to events and team efforts (hackathons, team KRs).`
 - `Link to events and team efforts (hackathons, team KRs).`
 
