@@ -127,8 +127,21 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 ## Other events and team efforts this milestone
 
 - [ ] Managers (@kpaizee, @dianalogan) check the [Developer Evangelism calendar](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/#-team-calendar) for Hackathons and other events that may impact team velocity this milestone. List the events and dates, and let the team know in the `tw-team` Slack channel, and as a read-only in the TW Team meeting.
-- `Link to events and team efforts (hackathons, team KRs).`
-- `Link to events and team efforts (hackathons, team KRs).`
+
+### Events
+
+- `Link to events and team efforts (hackathons, other events).`
+
+### TW recurring tasks
+
+- [Release Post structural check](https://about.gitlab.com/handbook/marketing/blog/release-posts/managers/): `Technical Writer`
+- [Monthly doc version](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md): `Technical Writer`
+- [Docs project maintenance tasks](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-monthly-tasks.md): `Technical Writer`
+
+### TW team KRs
+
+- `Links to team KRs`
+- `Links to team KRs`
 
 /assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell
 /label ~"Technical Writing" ~"tw-plan"
