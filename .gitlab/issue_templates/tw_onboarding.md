@@ -120,6 +120,7 @@ don't wait for the end of the milestone.
    priorities, how they'd recommend staying in sync about docs-only issue
    priorities on the board (and otherwise working together), and any upcoming
    documentation needs.
+1. [ ] Recap on [Planning](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning), then review the Technical Writing milestone plan for the release for your trainee groups. Work with the assigned Technical Writer to update the board and planning issue links. [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/648).
 1. [ ] Create one or more issues and one MR as a result of your documentation
    review, and link them here. Be sure to use the appropriate stage, group,
    `documentation`, and `Technical Writing` labels:
