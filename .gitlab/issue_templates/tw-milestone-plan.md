@@ -143,5 +143,5 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - `Links to team KRs`
 - `Links to team KRs`
 
-/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell
+/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell @phillipwells @ashrafkhamis 
 /label ~"Technical Writing" ~"tw-plan"
