@@ -16,8 +16,21 @@
   - [ ] EM:  _TBD_
   - [ ] PDM: _TBD_
 
-Be sure to provide any additional useful information about working with the group, including
-how they prefer to communicate in issues/MRs regarding reviews.
+### Group information for incoming technical writer
+
+To make the transition easier for the incoming technical writer, answer these questions in separate comments threads.
+Give as much detail as you feel is needed. The incoming technical writer should feel free to ask questions about any of
+these details:
+
+- [ ] How does the Product Manager plan work for future milestones? Provide links to relevant boards.
+- [ ] How does the group prefer to communicate in issues and MRs regarding reviews?
+- [ ] What is the [maturity](https://about.gitlab.com/direction/maturity/) of the feature set and documentation for
+      the feature set?
+- [ ] How well are features of the group known to people outside the group?
+- [ ] How much ~"UI text" work does the group generate?
+- [ ] Can the feature set for the group be explored solely on GitLab.com, or does it also require GDK or access to
+      third-party tools?
+- [ ] Does the group attract a lot of ~"Support Team Contributions" and ~"Community contribution"?
 
 ## Tasks for EMs and PMs
 
