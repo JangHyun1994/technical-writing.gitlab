@@ -115,10 +115,10 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 
 ### Stage ~devops::data_stores
 
-- [ ] ~"group::memory" - `Link to board or filter`
+- [ ] ~"group::application performance" - `Link to board or filter`
 - [ ] ~"group::global search" - `Link to board or filter`
 - [ ] ~"group::database" - [board](https://gitlab.com/groups/gitlab-org/-/boards/1324138?label_name%5B%5D=database%3A%3Aactive&label_name%5B%5D=group%3A%3Adatabase&label_name[]=Technical%20Writing), `planning issue`
-- [ ] ~"group::sharding" - `Link to board or filter`
+- [ ] ~"group::pods" - `Link to board or filter`
 
 ### Stage ~"devops::anti-abuse"
 
