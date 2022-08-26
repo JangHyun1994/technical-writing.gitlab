@@ -40,7 +40,7 @@
 
    In the documentation, [badges](https://docs.gitlab.com/ee/development/documentation/styleguide/#product-tier-badges) are added to features specific to a tier.
 
-   Badges may be listed next to a title (for example, `# Epic Issues API **(ULTIMATE)**`) or inline with content.
+   Badges may be listed next to a title (for example, `# Epic Issues API **(PREMIUM)**`) or inline with content.
 
 1. Where can you find which stage/group labels to add to an issue/MR and which technical writer to assign?
 
