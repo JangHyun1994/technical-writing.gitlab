@@ -60,6 +60,19 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
      For the Release Post items, reviews of each feature's details are reviewed by
      the technical writer assigned to each stage/group. This is specified only in the [MR template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md), and
      not in the Handbook page.
+1. [ ] Create your own test project in <https://gitlab.com/gitlab-org/technical-writing-group/>.
+   You can use this project as a sandbox to test most GitLab features safely, at
+   your own pace. It's also a good way to practice Git commands locally without working
+   in a "production" project. A test project in this group is better than under
+   your personal namespace because it has full access to all GitLab features, up
+   to the Ultimate tier.
+   1. Go to the [Technical Writing Team's group](https://gitlab.com/gitlab-org/technical-writing-group/)
+      and select **Create project > Create blank project**.
+   1. Set the project name as `Your name test project`.
+   1. Set the **Visibility level** to public.
+   1. Make sure **Initialize repository with a README** is selected, and **Enable Static Application Security Testing (SAST)**
+      is *not* selected.
+   1. Select **Create project**.
 1. [ ] [Set up your computer](https://about.gitlab.com/handbook/engineering/ux/technical-writing/setup/)
    for writing and previewing GitLab product documentation.
 1. [ ] Familiarize yourself with GitLab's [merge requests guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
@@ -107,12 +120,7 @@ don't wait for the end of the milestone.
    second 18th), unless your manager extends the shadowing phase, act as a
    trainee for two to three groups (as assigned by your manager). The intent is to
    take on the groups as their technical writer for the next release. List the
-   group names here:
-   The technical writers assigned to those groups assign substantial parts of the
-   work to you for these groups (roughly half of each groups's reviews of MRs with
-   documentation, UI text, and release post content; a small but substantial
-   documentation authoring project; a few minor documentation improvement
-   projects/fixes).
+   group names here: `group1`, `group2`, and `group3`.
 1. [ ] Get to know the group: read about the features, read the documentation,
    try some of the features, review the group's vision page, review its
    docs-only issue board, read all the documentation applicable to it, and set
@@ -120,19 +128,62 @@ don't wait for the end of the milestone.
    priorities, how they'd recommend staying in sync about docs-only issue
    priorities on the board (and otherwise working together), and any upcoming
    documentation needs.
-1. [ ] Recap on [Planning](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning), then review the Technical Writing milestone plan for the release for your trainee groups. Work with the assigned Technical Writer to update the board and planning issue links. [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/648).
-1. [ ] Create one or more issues and one MR as a result of your documentation
-   review, and link them here. Be sure to use the appropriate stage, group,
-   `documentation`, and `Technical Writing` labels:
-1. [ ] Add the links to any issues you're assigned as part of the group for
-   this milestone:
-1. [ ] Add the links to any other merge requests you're assigned or authored
-   here as part of the group:
-1. [ ] Add the links to other issues to which you're assigned or MRs you
-   authored or reviewed that don't pertain to the group (if any):
-1. [ ] Plan to address one or more docs-only issues for this group during the
-   next milestone. Get feedback and agreement from the PM and your manager.
-   Link the issues here:
+   1. [ ] As part of the documentation review for the groups, create one or more MRs
+      making improvements to the group's docs. These can be simple or "obvious" improvements,
+      or larger if you like. Also, create one or more issues for work that can be addressed
+      in the future. Be sure to use the appropriate stage, group, `documentation`,
+      and `Technical Writing` labels, and link them here:
+      - MR(s):
+      - Issue(s):
+   1. [ ] Review the [planning workflow](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning),
+      then review the Technical Writing milestone plan for your trainee groups for the next release.
+      Work with the assigned Technical Writer to update the board and planning issue links.
+      [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/648).
+1. [ ] Let the technical writers assigned to those groups know when you are ready to start
+   acting as a reviewer, and they will assign substantial parts of the work to you for these groups.
+   You do not need do all of this work solo, you can ask any number of people for help as needed.
+   - *Review* roughly half of each group's MRs, including documentation, UI text,
+     and release post content.
+   - *Author* minor documentation improvements and fixes for these docs.
+   - [ ] *Lead* one small but substantial documentation authoring project. You can
+     work on an issue that you created, or a TW might suggest one for you. Ping the
+     TW responsible for the relevant docs to let them know you intend to work on it.
+     Link to issue here: `Issue link`.
+1. [ ] As you will now be actively reviewing merge requests, set yourself as a documentation
+   reviewer by adding the following to your [team member file](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person),
+   after the `departments:` section:
+
+   ```yaml
+   projects:
+     gitlab: reviewer docs
+     omnibus-gitlab: reviewer docs
+     gitlab-runner: reviewer docs
+     gitlab-chart: reviewer docs
+     gitlab-development-kit: reviewer docs
+     gitlab-docs: reviewer
+   ```
+
+   This change will have an effect:
+   - On projects here: <https://about.gitlab.com/handbook/engineering/projects/>.
+   - On the GitLab Review Workload Dashboard: <https://gitlab-org.gitlab.io/gitlab-roulette/>.
+     You can filter for just docs maintainers or reviewers. People might find you
+     on this list and ask you to do a first review on their MR. Feel free to do the review,
+     or pass on to another TW, depending on your comfort with the changes in the MR.
+1. [ ] Optional. If you are not comfortable being pinged randomly for first reviews yet,
+   (or are being pinged too much) you can [change your GitLab status](https://docs.gitlab.com/ee/user/profile/#set-your-current-status)
+   to set yourself as unavailable for reviews:
+   - Profile emoji: `bulb` (:bulb:), this emoji tells the Workload Dashboard that
+     you are unavailable, and your card will be greyed out in the list. See the
+     [Reviewer roulette docs](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
+     for more details.
+   - Profile message: `Onboarding, not currently accepting reviews.`
+
+   Be sure to change the emoji and message when you are ready to start receiving reviews.
+
+1. [ ] Add links to group-related issues you're assigned during this milestone:
+1. [ ] Add links to group-related merge requests you've reviewed or authored:
+1. [ ] Optional. Add links to other issues or MRs that you worked on that do not
+   relate to your group work, but would like to highlight:
 
 The trainee phase may be extended by an additional milestone at the discretion
 of the manager.
@@ -141,9 +192,10 @@ of the manager.
 
 1. [ ] For the third release cycle, you assume the full role of technical
    writer for the groups, except that the former technical writers assigned to
-   the groups are now the coaches, who will review all your work (including reviews
-   you perform of other authors) before it is merged. They may share the burden
-   of these reviews with other technical writers.
+   the groups are now the coaches. You do all reviews from start to finish (including
+   reviews you perform for content authored by other TWs) as the group's primary TW.
+   When finished, forward the MR to your coach for final review and merge.
+   Your coaches can share the burden of these reviews with other technical writers.
 1. [ ] Submit an access request to become a maintainer for these projects:
    - [`gitlab`](https://gitlab.com/gitlab-org/gitlab)
    - [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab)
@@ -161,11 +213,10 @@ of the manager.
    merge content without a coach as the technical writer for the group.
    Otherwise, your developer permissions and coach's collaboration may continue
    through another release.
-1. [ ] When you have maintainer access to the previously listed projects, submit an MR to update your [team
-member](https://about.gitlab.com/company/team/)
- file with your project permissions. This change will have an effect:
-   - On projects here: <https://about.gitlab.com/handbook/engineering/projects/>.
-   - On the GitLab Review Workload Dashboard page here: <https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&hourFormat24=true&visible=maintainer%7Cdocs>.
+1. [ ] When you have maintainer access to the previously listed projects, submit an MR
+   to update your [team member file](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
+   with your project permissions. Change `reviewer` to `maintainer` for all
+   the projects you have maintainer access to.
 1. [ ] Submit an MR to add yourself as a `docs.gitlab.com` administrator to the Google Search Console.
    Follow the instructions to add an [HTML `meta` tag](https://support.google.com/webmasters/answer/9008080?hl=en&ref_topic=9455938#zippy=%2Chtml-tag):
 
