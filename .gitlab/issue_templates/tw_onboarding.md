@@ -14,8 +14,10 @@ The manager for the person being onboarded must complete these tasks:
 1. [ ] Determine and assign group for trainee (for example, to work towards
    being assigned as its technical writer).
 1. [ ] Determine and schedule further group assignments.
-1. [ ] Add the new team member to the following configuration files:
+1. [ ] Add the new team member to the following files:
    - [`sites/handbook/source/includes/product/_categories-names.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/product/_categories-names.erb)
+   - [`sites/handbook/source/handbook/engineering/ux/technical-writing/index.html.md.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/ux/technical-writing/index.html.md.erb)
+   - [`sites/handbook/source/includes/stages/tech-writing.html.haml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/stages/tech-writing.html.haml)
 1. [ ] Add the new team member as an assignee in the [TW milestone plan](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md) template.
 
 ### Team member tasks
