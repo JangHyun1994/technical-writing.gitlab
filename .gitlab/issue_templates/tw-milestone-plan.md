@@ -1,9 +1,3 @@
-As a result of the [FY2022Q3 OKR, Balance tech writer workload by improving the planning and estimation process for feature docs](https://gitlab.com/gitlab-org/technical-writing/-/issues/453), we determined that the following plan would help us begin to consolidate release planning for the TW team.
-
-**Why is release planning for the tech writing team important?** First, we are almost entirely reactive. Our workflow has writers constantly responding to developer reviews to update the docs. We don't have a consistent planning process across the team. That makes it hard for us to estimate our capacity. Second, we also have had a [long-standing focus on Improvement MRs](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#distribution-of-technical-writing-team-documentation-effort) (now called Maintenance.) How do we plan for OKRs, improvement projects, and backlog items if we don't understand what's coming for release docs? All of this contributes to the question: How do we know when we have the correct number of writers on the team?
-
-Beginning to understand what's coming in each release across stages will help us plan for more Improvement projects and OKRs, such as the [CTRT OKR](https://app.ally.io/objectives/1665339?time_period_id=135093) already scheduled. We know findability is a problem on the docs site, and that users struggle to figure out how to use GitLab. Moving from reactive to proactive working will benefit our users by allowing us to plan to focus on targeted improvements.
-
 This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone. In addition to the work with their assigned groups, the [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/) also works on [OKRs](https://about.gitlab.com/handbook/engineering/ux/#okrs) and other tasks that are not reflected in this issue.
 
 **On the `15th` of each month:**
@@ -12,7 +6,7 @@ The [TW Bot](https://gitlab.com/project_10614162_bot) creates the issue for the 
 
 **By the `29th` of each month:**
 
-The TW carries out the following planning activities for their assigned groups, and populates [Checklist and links](#checklist-and-links) to confirm these activities have taken place:
+The TW carries out [planning activities](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning) for their assigned groups, and populates [Checklist and links](#checklist-and-links) to confirm these activities have taken place:
 
 1. Have a conversation - synchronously or asynchronously - with either the group **PM** or **EM** to review planned ~"documentation" and ~"UI text" work for the upcoming milestone (`Milestone: Upcoming`) or (`Milestone: Started`). This is also an opportunity to talk to the PM or EM about any improvement or development opportunities they're aware of in their areas of the product documentation. This can be a regular group meeting or any other means of communication that you have established with your group.
 
@@ -32,8 +26,7 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 ### Stage ~"devops::manage"
 
 - [ ] ~"group::authentication and authorization" - `Link to board or filter`
-- [ ] ~"group::workspace" - `Link to board or filter`
-- [ ] ~"group::compliance" - `Link to board or filter`
+- [ ] ~"group::workspace" - `Link to board or filter``
 - [ ] ~"group::import" - `Link to board or filter`
 - [ ] ~"group::optimize" - `Link to board or filter`
 
@@ -83,16 +76,18 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::static analysis" - `Link to board or filter`
 - [ ] ~"group::dynamic analysis" - `Link to board or filter`
 - [ ] ~"group::composition analysis" - `Link to board or filter`
-- [ ] ~"group::threat insights" - `Link to board or filter`
 - [ ] ~"group::vulnerability research" - `Link to board or filter`
 
-### Stage ~"devops::protect"
+### Stage ~"devops::govern"
 
-- [ ] ~"group::container security" - `Link to board or filter`
+- [ ] ~"group::security policies" - `Link to board or filter`
+- [ ] ~"group::threat insights" - `Link to board or filter`
+- [ ] ~"group::compliance" - `Link to board or filter`
 
 ### Stage ~"devops::analytics"
 
 - [ ] ~"group::product intelligence" - `Link to board or filter`
+- [ ] ~"group::product analytics" - `Link to board or filter`
 
 ### Stage ~"devops::growth"
 
@@ -105,6 +100,8 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - [ ] ~"group::provision" - `Link to board or filter`
 - [ ] ~"group::utilization" - `Link to board or filter`
 - [ ] ~"group::fulfillment platform" - `Link to board or filter`
+- [ ] ~"group::billing and subscription management" - `Link to board or filter`
+
 
 ### Stage ~"devops::systems"
 
@@ -143,5 +140,5 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - `Links to team KRs`
 - `Links to team KRs`
 
-/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell @phillipwells @ashrafkhamis 
+/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell @phillipwells @ashrafkhamis @jglassman1 @lciutacu 
 /label ~"Technical Writing" ~"tw-plan"
