@@ -1,6 +1,6 @@
 # Technical Writing team project
 
-The [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/)
+The [Technical Writing team](https://about.gitlab.com/handbook/product/ux/technical-writing/)
 project contains:
 
 - Epics, issues, and the roadmap for the Technical Writing team and GitLab

@@ -1,4 +1,4 @@
-This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone. In addition to the work with their assigned groups, the [Technical Writing team](https://about.gitlab.com/handbook/engineering/ux/technical-writing/) also works on [OKRs](https://about.gitlab.com/handbook/engineering/ux/#okrs) and other tasks that are not reflected in this issue.
+This issue provides a consolidated view of what the Technical Writing team expects to work on with their assigned groups for the upcoming milestone. In addition to the work with their assigned groups, the [Technical Writing team](https://about.gitlab.com/handbook/product/ux/technical-writing/) also works on [OKRs](https://about.gitlab.com/handbook/product/ux/#okrs) and other tasks that are not reflected in this issue.
 
 **On the `15th` of each month:**
 
@@ -6,7 +6,7 @@ The [TW Bot](https://gitlab.com/project_10614162_bot) creates the issue for the 
 
 **By the `29th` of each month:**
 
-The TW carries out [planning activities](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning) for their assigned groups, and populates [Checklist and links](#checklist-and-links) to confirm these activities have taken place:
+The TW carries out [planning activities](https://about.gitlab.com/handbook/product/ux/technical-writing/workflow/#planning) for their assigned groups, and populates [Checklist and links](#checklist-and-links) to confirm these activities have taken place:
 
 1. Have a conversation - synchronously or asynchronously - with either the group **PM** or **EM** to review planned ~"documentation" and ~"UI text" work for the upcoming milestone (`Milestone: Upcoming`) or (`Milestone: Started`). This is also an opportunity to talk to the PM or EM about any improvement or development opportunities they're aware of in their areas of the product documentation. This can be a regular group meeting or any other means of communication that you have established with your group.
 
