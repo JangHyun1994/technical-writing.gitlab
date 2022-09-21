@@ -1,6 +1,6 @@
 # Technical Writing recurring tasks for: YYYY-MM
 
-Each month, the Technical Writer [assigned to recurring tasks](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks)
+Each month, the Technical Writer [assigned to recurring tasks](https://about.gitlab.com/handbook/product/ux/technical-writing/#regularly-scheduled-tasks)
 ensures the following tasks are completed to help minimize technical debt.
 
 ## Suggested order
@@ -144,7 +144,7 @@ technical debt.
 
 - [ ] **Improve [this template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-monthly-tasks.md), if needed.**
 - [ ] Create a new issue for the next month's chores, and assign it to the next TW
-  [on the schedule](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks).
+  [on the schedule](https://about.gitlab.com/handbook/product/ux/technical-writing/#regularly-scheduled-tasks).
 
 /label ~Technical Writing
 /label ~tw::doing

@@ -166,7 +166,7 @@ don't wait for the end of the milestone.
    ```
 
    This change will have an effect:
-   - On projects here: <https://about.gitlab.com/handbook/engineering/projects/>.
+   - On projects here: <https://about.gitlab.com/handbook/product/projects/>.
    - On the GitLab Review Workload Dashboard: <https://gitlab-org.gitlab.io/gitlab-roulette/>.
      You can filter for just docs maintainers or reviewers. People might find you
      on this list and ask you to do a first review on their MR. Feel free to do the review,

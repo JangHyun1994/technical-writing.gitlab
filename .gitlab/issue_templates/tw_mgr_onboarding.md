@@ -4,7 +4,7 @@ Welcome to the Technical Writing team! As a new GitLab team member, this issue w
 
 ### Getting questions answered
 
-If you have questions, don't hesitate to reach out to your UX buddy, your manager, or the Technical Writing team. We have several [Slack channels](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#slack-channels) you'll want to join and use in your new role.
+If you have questions, don't hesitate to reach out to your UX buddy, your manager, or the Technical Writing team. We have several [Slack channels](https://about.gitlab.com/handbook/product/ux/technical-writing/#slack-channels) you'll want to join and use in your new role.
 
 ### Onboarding expectations
 
@@ -52,7 +52,7 @@ The following reference links and items of information may be helpful in your ro
   - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html): This page (and its subpages) include information for GitLab developers about how to do their work, including how to document their work.
   - [Company writing style guidelines](https://about.gitlab.com/handbook/communication/#writing-style-guidelines): These are good to be aware of, but apply more to general concepts, or for release post work.
   - [GitLab Design System](https://design.gitlab.com/): Also known as Pajamas, this website describes the different elements of design that make up GitLab, including the available UI elements and how to interact with them.
-  - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/): This page describes the process used for each monthly GitLab milestone release (on the 22nd of each month). The Technical Writing team acts as reviewers for each release post items, and one technical writer (on a [rotating schedule](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#regularly-scheduled-tasks)) acts as the TW Lead for the release.
+  - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/): This page describes the process used for each monthly GitLab milestone release (on the 22nd of each month). The Technical Writing team acts as reviewers for each release post items, and one technical writer (on a [rotating schedule](https://about.gitlab.com/handbook/product/ux/technical-writing/#regularly-scheduled-tasks)) acts as the TW Lead for the release.
   - [Product development flow](https://about.gitlab.com/handbook/product-development-flow/): This is the primary workflow for most of the developer teams. It would be worth reviewing the workflow for those portions that involve Technical Writing.
 - Terminology
   - Merge requests: These are also commonly called _pull requests_ in the industry. This is commonly contracted to _MR_.

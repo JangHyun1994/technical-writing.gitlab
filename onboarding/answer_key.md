@@ -46,7 +46,7 @@
 
    For details on who owns what, see [Product sections, stages, groups, and categories](https://about.gitlab.com/handbook/product/categories/).
 
-   For a list of technical writers and their area of responsibility, see [Assignments](https://about.gitlab.com/handbook/engineering/technical-writing/#assignments).
+   For a list of technical writers and their area of responsibility, see [Assignments](https://about.gitlab.com/handbook/product/technical-writing/#assignments).
 
 1. Which labels must be added to MRs that have changes to the documentation?
 
