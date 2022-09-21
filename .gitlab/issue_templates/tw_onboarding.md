@@ -16,7 +16,7 @@ The manager for the person being onboarded must complete these tasks:
 1. [ ] Determine and schedule further group assignments.
 1. [ ] Add the new team member to the following files:
    - [`sites/handbook/source/includes/product/_categories-names.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/product/_categories-names.erb)
-   - [`sites/handbook/source/handbook/engineering/ux/technical-writing/index.html.md.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/ux/technical-writing/index.html.md.erb)
+   - [`sites/handbook/source/handbook/product/ux/technical-writing/index.html.md.erb`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/product/ux/technical-writing/index.html.md.erb)
    - [`sites/handbook/source/includes/stages/tech-writing.html.haml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/includes/stages/tech-writing.html.haml)
 1. [ ] Add the new team member as an assignee in the [TW milestone plan](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md) template.
 
@@ -30,7 +30,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    channel in Slack. Tell us a bit more about yourself by using the
    [Team Agenda doc](https://docs.google.com/document/d/1XRyVjR5G21Amq4QqJs9jbV0BVQquiBAyPR257-hT1JY/edit),
    and then during the first team meeting you're able to attend.
-1. [ ] Join the team's [Slack channels](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#slack-channels),
+1. [ ] Join the team's [Slack channels](https://about.gitlab.com/handbook/product/ux/technical-writing/#slack-channels),
    and #docs-team-onboarding. In the latter channel, ask any questions that
    arise during your onboarding. Don't worry about asking seemingly basic
    questions; everyone has joined the team bringing their own knowledge and
@@ -56,7 +56,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    - [ ] Review these processes, noting the mentions of "documentation" and
      "technical writer"/"technical writing":
      - [GitLab Release Posts](https://about.gitlab.com/handbook/marketing/blog/release-posts/#tw-lead)
-     - [UX design](https://about.gitlab.com/handbook/engineering/ux/product-designer/#partnering-with-technical-writers)
+     - [UX design](https://about.gitlab.com/handbook/product/ux/product-designer/#partnering-with-technical-writers)
      - [Product development](https://about.gitlab.com/handbook/product-development-flow/)
 
      For the Release Post items, reviews of each feature's details are reviewed by
@@ -75,7 +75,7 @@ Welcome to the Technical Writing team! Here are your technical writing-related o
    1. Make sure **Initialize repository with a README** is selected, and **Enable Static Application Security Testing (SAST)**
       is *not* selected.
    1. Select **Create project**.
-1. [ ] [Set up your computer](https://about.gitlab.com/handbook/engineering/ux/technical-writing/setup/)
+1. [ ] [Set up your computer](https://about.gitlab.com/handbook/product/ux/technical-writing/setup/)
    for writing and previewing GitLab product documentation.
 1. [ ] Familiarize yourself with GitLab's [merge requests guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
 1. [ ] The Technical Writing team uses the Geekbot app in Slack to run
@@ -137,7 +137,7 @@ don't wait for the end of the milestone.
       and `Technical Writing` labels, and link them here:
       - MR(s):
       - Issue(s):
-   1. [ ] Review the [planning workflow](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/#planning),
+   1. [ ] Review the [planning workflow](https://about.gitlab.com/handbook/product/ux/technical-writing/workflow/#planning),
       then review the Technical Writing milestone plan for your trainee groups for the next release.
       Work with the assigned Technical Writer to update the board and planning issue links.
       [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/648).
