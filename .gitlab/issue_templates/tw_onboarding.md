@@ -130,10 +130,11 @@ don't wait for the end of the milestone.
    priorities, how they'd recommend staying in sync about docs-only issue
    priorities on the board (and otherwise working together), and any upcoming
    documentation needs.
+   1. [ ] Read up on [Documentation review apps](https://docs.gitlab.com/ee/development/documentation/review_apps.html).
    1. [ ] As part of the documentation review for the groups, create one or more MRs
       making improvements to the group's docs. These can be simple or "obvious" improvements,
       or larger if you like. Also, create one or more issues for work that can be addressed
-      in the future. Be sure to use the appropriate stage, group, `documentation`,
+      in the future. Use a [review app](https://docs.gitlab.com/ee/development/documentation/review_apps.html) for at least one of the MRs. Be sure to use the appropriate stage, group, `documentation`,
       and `Technical Writing` labels, and link them here:
       - MR(s):
       - Issue(s):
