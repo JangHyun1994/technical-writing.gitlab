@@ -140,5 +140,9 @@ After you've reviewed the plan with your PM or EM, select the checkbox for your 
 - `Links to team KRs`
 - `Links to team KRs`
 
-/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell @phillipwells @ashrafkhamis @jglassman1 @lciutacu 
+### Docs site work
+
+- [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name%5B%5D=Category%3ADocs%20Site) (ongoing work)
+
+/assign @aqualls @rdickenson @axil @kpaizee @marcel.amirault @sselhorn @eread @msedlakjakubowski @susantacker @fneill @dianalogan @claytoncornell @phillipwells @ashrafkhamis @jglassman1 @lciutacu
 /label ~"Technical Writing" ~"tw-plan"
